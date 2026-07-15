@@ -2,6 +2,21 @@
 
 All notable changes to the Muhanad Ghurab profile repository and portfolio program documentation.
 
+## [2026-07-15] — MGH.GITHUB.PROFILE.2
+
+### Added
+- Wide cyber-crow command-center hero (1800x640)
+- Conceptual enterprise-orbit diagram
+- Portfolio telemetry from data/profile-status.json
+- Crow mark variants, security-status and project-navigation panels
+- Deterministic render script and profile asset tests
+- Resume folder (ATS PDF pending owner upload)
+- HERO-DESIGN-DECISION and GITHUB-COMPATIBILITY docs
+
+### Updated
+- README restructured as recruiter command-center landing
+- Brand guide for profile command-center assets
+
 ## [2026-07-15] — MGH.GITHUB.HOME.1
 
 ### Added

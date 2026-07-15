@@ -37,9 +37,13 @@ Published tools include hash verifier, RBAC simulator, log summary, IOC extracto
 
 **Next:** MGH.GITHUB.ECOSYSTEM.4D — software-only twin (not started)
 
-## Phase 5 — Homepage visual evidence and CV brand alignment
+## Phase 5 — Profile command center
 
-**Next after HOME.1:** MGH.GITHUB.HOME.2 — social preview refinement and CV brand alignment
+**Status:** MGH.GITHUB.PROFILE.2 — wide cyber-crow command center (active)
+
+## Phase 6 — Homepage visual evidence and CV brand alignment
+
+**Next:** MGH.GITHUB.PROFILE.3 — verified project cards, live evidence panels, recruiter journey optimization · and/or MGH.GITHUB.HOME.2 social preview / CV brand alignment
 
 ## Progress governance
 

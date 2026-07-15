@@ -13,65 +13,41 @@ Locked visual system for the Muhanad Ghurab GitHub ecosystem.
 | Slate gray | `#475569` | Dividers, secondary lines |
 | Light slate | `#CBD5E1` | Body text on dark |
 | White | `#FFFFFF` | Primary text / name |
-| Controlled amber | `#F59E0B` | Optional secondary accent only |
+| Controlled amber | `#F59E0B` | Learning / in-progress only |
+| Controlled violet | `#7C3AED` | Interactive/game projects only |
 
-Do not use rainbow palettes, matrix clichés, cartoon mascots, or aggressive skull imagery.
+Do not use rainbow palettes, matrix clichés, cartoon mascots, skulls, or aggressive neon floods.
 
 ## Typography (SVG / banners)
 
-Prefer (referenced by name only — do not redistribute font files):
+IBM Plex Mono · JetBrains Mono · Consolas · Menlo · system monospace/sans. Do not commit font files.
 
-- IBM Plex Mono
-- JetBrains Mono
-- Consolas
-- System monospace fallback
+## Crow mark and hero
 
-## Crow mark
+- Primary command center: `assets/profile/cyber-crow-command-center.svg`
+- Static fallback required
+- Compact mark: `assets/profile/crow-mark.svg` (+ light/dark variants)
+- Animation: SVG/CSS only, slow, reduced-motion safe
+- Hero canvas target: ~1800x640 viewBox, full-width in README
 
-- Original geometric cyber crow for homepage: `assets/cyber-crow-home.svg`
-- Static fallback required: `assets/cyber-crow-home-static.svg`
-- Legacy assets `cyber-crow-header.svg` / `cyber-crow-static.svg` retained for reference
-- Binary accents and network nodes allowed
-- Animation: SVG/CSS only, controlled, reduced-motion friendly
-- Always ship a static fallback
+## Charts and diagrams
 
-## Homepage panels
+- Telemetry from `data/profile-status.json` only
+- Never skill percentages
+- Architecture diagrams labeled Conceptual Portfolio Architecture
+- No employer/client network claims
 
-Preferred recruiter panels:
+## Emoji rules (README only)
 
-- `professional-snapshot.svg`
-- `evidence-strip.svg`
-- `recruiter-path.svg`
-- `learning-progress.svg`
-- `project-status.svg`
+At most one emoji per main heading. Never emoji-only links. Never rely on emoji in ATS PDF.
 
-Do not put long paragraphs inside SVG assets. Keep searchable narrative in Markdown.
+## Resume rules
 
-## Domain banner accents
+Link ATS PDF only when approved file exists at `resume/Muhanad-Ghurab-ATS-Resume.pdf`.
 
-| Domain | Accent pairing |
-|--------|----------------|
-| Cybersecurity | Cyan + electric blue |
-| Infrastructure | Blue + slate |
-| Python | Blue + controlled amber |
-| Java | Blue + muted orange |
-| Drone | Blue + aviation cyan |
-| Robotics | Cyan + steel gray |
-| Games | Blue + controlled violet |
-| Crow Ecosystem | Deep navy + cyan + electric blue |
+## Accessibility and animation
 
-## Status labels
-
-Use only:
-
-Planning · Scaffolded · Active Development · Functional Prototype · Documentation Complete · Release Candidate · Archived · Private Architecture Summary
-
-Do not label work Production Ready without documented criteria.
-
-## Accessibility
-
-- Meaningful `title` / `desc` on SVGs
-- Do not rely on animation for essential information
-- Sufficient contrast on navy backgrounds
-- Prefer `prefers-reduced-motion` support
-- Social preview text must remain readable when scaled down
+- title/desc on SVGs
+- Static state must carry identity
+- No rapid flashing
+- Prefer prefers-reduced-motion
