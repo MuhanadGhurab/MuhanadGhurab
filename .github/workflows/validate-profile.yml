@@ -5,6 +5,7 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -27,19 +28,27 @@ jobs:
           test -f README.md
           test -f LICENSE
           test -f data/profile-status.json
+          test -f data/github-evidence.json
           test -f scripts/render-profile-assets.py
+          test -f scripts/generate_profile3_assets.py
+          test -f scripts/update-github-evidence.py
           test -f tests/test_profile_assets.py
+          test -f assets/profile/cyber-crow-hero-v2.svg
+          test -f assets/profile/cyber-crow-hero-v2-static.svg
+          test -f assets/profile/cyber-crow-operations.svg
+          test -f assets/profile/conceptual-portfolio-architecture-v2.svg
+          test -f assets/profile/portfolio-telemetry-v2.svg
+          test -f assets/generated/github-evidence.svg
+          test -f assets/generated/cyber-crow-contribution-flight.svg
+          test -f assets/generated/cyber-crow-contribution-flight-static.svg
           test -f assets/profile/cyber-crow-command-center.svg
-          test -f assets/profile/cyber-crow-command-center-static.svg
           test -f assets/profile/crow-mark.svg
-          test -f assets/profile/enterprise-orbit-diagram.svg
-          test -f assets/profile/portfolio-telemetry.svg
-          test -f assets/profile/security-status.svg
-          test -f assets/profile/project-navigation.svg
           test -f docs/HERO-DESIGN-DECISION.md
           test -f docs/GITHUB-COMPATIBILITY.md
           test -f docs/BRAND-GUIDE.md
           test -f docs/PROFILE-CONTENT.md
+          test -f docs/REFERENCE-STUDY-TROYMITCHELL911.md
+          test -f docs/ANIMATION-REBUILD-DECISION.md
           test -f resume/README.md
           test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
           test -f resume/Muhanad-Ghurab-ATS-Resume.docx
@@ -71,7 +80,7 @@ jobs:
               re.compile(r"BEGIN (RSA|OPENSSH|EC) PRIVATE KEY"),
               re.compile(r"postgres(ql)?://[^\s]+:[^\s]+@"),
           ]
-          skip = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".pdf"}
+          skip = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".pdf", ".docx"}
           hits = []
           for path in Path(".").rglob("*"):
               if not path.is_file() or path.suffix.lower() in skip:
@@ -97,15 +106,16 @@ jobs:
           grep -q "Muhanad Ghurab" README.md
           grep -q "IT Specialist — Tekfen Construction" README.md
           grep -q "In Progress" README.md
-          grep -q "cyber-crow-command-center.svg" README.md
+          grep -q "cyber-crow-hero-v2.svg" README.md
           grep -q "profile-status.json" README.md
+          grep -q "github-evidence.json" README.md || grep -q "github-evidence.svg" README.md
           ! grep -qi "Security+ Certified" README.md
           ! grep -qi "Certified PMP" README.md
           ! grep -qi "Aramco Employee" README.md
           grep -q "Muhanad-Ghurab-ATS-Resume.pdf" README.md
+          grep -q "Muhanad-Ghurab-ATS-Resume.docx" README.md
           ! grep -q "OWNER INPUT REQUIRED" README.md
           ! grep -qi "Resume Pending" README.md
-          # Resume PDF must exist when linked
           test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
 
       - name: Local asset references exist
