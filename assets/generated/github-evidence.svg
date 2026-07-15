@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 280" role="img" aria-labelledby="title desc">
+  <title id="title">Verified public GitHub evidence</title>
+  <desc id="desc">Verified public GitHub evidence — forks excluded; archived excluded from language/star tallies where noted. Refreshed 2026-07-15. Public repos 5, stars 4.</desc>
+  <rect width="1280" height="280" rx="16" fill="#020617" stroke="#1E293B"/>
+  <text x="48" y="42" font-family="IBM Plex Mono,Consolas,monospace" font-size="20" fill="#FFFFFF" font-weight="700">VERIFIED PUBLIC GITHUB EVIDENCE</text>
+  <text x="48" y="68" font-family="IBM Plex Mono,Consolas,monospace" font-size="13" fill="#22D3EE">Last refreshed 2026-07-15 — gh api user/repos for authenticated MuhanadGhurab public non-fork repos</text>
+  <rect x="48" y="100" width="360" height="100" rx="12" fill="#0F172A" stroke="#2563EB"/>
+  <text x="70" y="140" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#94A3B8">Public repositories</text>
+  <text x="70" y="175" font-family="IBM Plex Mono,Consolas,monospace" font-size="36" fill="#22D3EE">5</text>
+  <rect x="440" y="100" width="360" height="100" rx="12" fill="#0F172A" stroke="#2563EB"/>
+  <text x="460" y="140" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#94A3B8">Public stars (total)</text>
+  <text x="460" y="175" font-family="IBM Plex Mono,Consolas,monospace" font-size="36" fill="#22D3EE">4</text>
+  <rect x="832" y="100" width="400" height="100" rx="12" fill="#0F172A" stroke="#22D3EE"/>
+  <text x="852" y="140" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#94A3B8">Languages (repo primary)</text>
+  <text x="852" y="175" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#CBD5E1">Python ×2, TypeScript ×1</text>
+  <text x="48" y="250" font-family="IBM Plex Mono,Consolas,monospace" font-size="12" fill="#64748B">Actual public data only — not competency grades. Forks excluded from API query.</text>
+</svg>

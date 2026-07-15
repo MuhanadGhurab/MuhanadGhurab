@@ -1,0 +1,20 @@
+{
+  "username": "MuhanadGhurab",
+  "refreshed": "2026-07-15",
+  "disclaimer": "Verified public GitHub evidence \u2014 forks excluded; archived excluded from language/star tallies where noted.",
+  "public_repos": 5,
+  "non_archived": 5,
+  "stars_total": 4,
+  "languages": {
+    "Python": 2,
+    "TypeScript": 1
+  },
+  "highlighted_repos": [
+    "crow-ecosystem-platform",
+    "enterprise-cybersecurity-lab",
+    "secureskies-drone-security",
+    "mini-it-cyber-projects",
+    "MuhanadGhurab"
+  ],
+  "method": "gh api user/repos for authenticated MuhanadGhurab public non-fork repos"
+}
