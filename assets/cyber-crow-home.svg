@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">MUHANAD GHURAB - Cybersecurity, Infrastructure, Enterprise Technology</title>
+  <desc id="desc">Professional cyber operations hero with geometric crow, binary streams, network nodes, controlled scan line, and recruiter contact cues on deep navy. Works without animation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <style><![CDATA[
+      .name{font-family:IBM Plex Mono,JetBrains Mono,Consolas,ui-monospace,monospace;font-size:48px;font-weight:700;fill:#FFFFFF;letter-spacing:.1em}
+      .sub{font-family:IBM Plex Mono,JetBrains Mono,Consolas,ui-monospace,monospace;font-size:16px;fill:#22D3EE;letter-spacing:.14em}
+      .tag{font-family:IBM Plex Mono,JetBrains Mono,Consolas,ui-monospace,monospace;font-size:14px;fill:#CBD5E1}
+      .loc{font-family:IBM Plex Mono,JetBrains Mono,Consolas,ui-monospace,monospace;font-size:13px;fill:#94A3B8}
+      .bin{font-family:IBM Plex Mono,Consolas,monospace;font-size:11px;fill:#22D3EE;opacity:.22}
+      .outline{fill:none;stroke:url(#glow);stroke-width:2.4;stroke-linejoin:round;stroke-linecap:round}
+      .wing{fill:none;stroke:#2563EB;stroke-width:1.5;opacity:.8}
+      .wire{stroke:#475569;stroke-width:1;fill:none;opacity:.55}
+      .scan{fill:#22D3EE;opacity:.1}
+      @media (prefers-reduced-motion:no-preference){
+        .scan{animation:scan 8s linear infinite}
+        .pulse{animation:pulse 3.4s ease-in-out infinite}
+        .stream{animation:stream 10s linear infinite}
+        .node{animation:node 4.2s ease-in-out infinite}
+        .cursor{animation:blink 1.4s steps(1) infinite}
+      }
+      @keyframes scan{0%{transform:translateY(-40px)}100%{transform:translateY(360px)}}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+      @keyframes stream{0%{transform:translateX(0)}100%{transform:translateX(-80px)}}
+      @keyframes node{0%,100%{opacity:.35}50%{opacity:1}}
+      @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    ]]></style>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <g class="stream" opacity="0.9">
+    <text class="bin" x="40" y="40">01001101 01010101 01001000 01000001 01001110 01000001 01000100</text>
+    <text class="bin" x="120" y="62">11001010 00101101 10010110 01011100 10100101 01101100</text>
+    <text class="bin" x="60" y="84">00011101 11100010 01010101 10101010 00110011 11001100</text>
+    <text class="bin" x="180" y="380">SEC OPS | INFRA | IDENTITY | TELEMETRY | EVIDENCE</text>
+  </g>
+  <rect class="scan" x="0" y="0" width="1280" height="28"/>
+  <!-- network -->
+  <g class="wire">
+    <path d="M720 90 L820 140 L900 110 L980 170 L1080 130"/>
+    <path d="M740 220 L860 250 L940 210 L1040 260"/>
+    <path d="M760 320 L880 300 L1000 340"/>
+  </g>
+  <g fill="#22D3EE">
+    <circle class="node" cx="820" cy="140" r="4"/>
+    <circle class="node" cx="900" cy="110" r="4"/>
+    <circle class="node" cx="980" cy="170" r="4"/>
+    <circle class="node" cx="860" cy="250" r="4"/>
+    <circle class="node" cx="940" cy="210" r="4"/>
+    <circle class="node" cx="1000" cy="340" r="4"/>
+  </g>
+  <!-- geometric crow (right) -->
+  <g transform="translate(980,210)">
+    <ellipse class="pulse" cx="-10" cy="-8" rx="34" ry="22" fill="url(#eye)" opacity="0.25"/>
+    <path class="outline" d="M-90,40 C-70,10 -40,-35 10,-55 C40,-65 70,-50 85,-20 C95,5 80,35 50,50 C20,65 -40,70 -90,40 Z"/>
+    <path class="wing" d="M-55,5 C-20,-25 25,-20 55,5"/>
+    <path class="wing" d="M-48,22 C-10,0 30,8 58,28"/>
+    <path class="outline" d="M85,-20 L125,-8 L88,5 Z"/>
+    <circle class="pulse" cx="18" cy="-28" r="5" fill="#22D3EE"/>
+    <path class="wing" d="M-75,48 L-95,78 M-60,52 L-70,82 M-45,55 L-48,85"/>
+  </g>
+  <!-- left identity -->
+  <text class="name" x="56" y="150">MUHANAD GHURAB</text>
+  <text class="sub" x="56" y="188">CYBERSECURITY  |  INFRASTRUCTURE  |  ENTERPRISE TECHNOLOGY</text>
+  <text class="tag" x="56" y="230">Securing Enterprise Systems.</text>
+  <text class="tag" x="56" y="254">Building Resilient Infrastructure.</text>
+  <text class="tag" x="56" y="278">Engineering Trusted Digital Operations.</text>
+  <text class="loc" x="56" y="330">Jeddah, Saudi Arabia</text>
+  <text class="loc" x="56" y="354">GitHub  |  LinkedIn  |  Email</text>
+  <rect x="56" y="368" width="10" height="14" fill="#22D3EE" class="cursor"/>
+  <text class="loc" x="74" y="380">portfolio://secure-ops</text>
+</svg>

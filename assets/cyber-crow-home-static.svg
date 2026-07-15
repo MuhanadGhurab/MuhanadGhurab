@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">MUHANAD GHURAB static homepage hero</title>
+  <desc id="desc">Static fallback cyber operations hero with geometric crow and identity text.</desc>
+  <rect width="1280" height="420" fill="#020617"/>
+  <rect width="1280" height="420" fill="#0F172A" opacity="0.9"/>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="48" font-weight="700" fill="#FFFFFF" letter-spacing="4" x="56" y="150">MUHANAD GHURAB</text>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#22D3EE" letter-spacing="2" x="56" y="188">CYBERSECURITY  |  INFRASTRUCTURE  |  ENTERPRISE TECHNOLOGY</text>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#CBD5E1" x="56" y="230">Securing Enterprise Systems.</text>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#CBD5E1" x="56" y="254">Building Resilient Infrastructure.</text>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#CBD5E1" x="56" y="278">Engineering Trusted Digital Operations.</text>
+  <text font-family="IBM Plex Mono,Consolas,monospace" font-size="13" fill="#94A3B8" x="56" y="330">Jeddah, Saudi Arabia</text>
+  <g transform="translate(980,210)" fill="none" stroke="#38BDF8" stroke-width="2.4">
+    <path d="M-90,40 C-70,10 -40,-35 10,-55 C40,-65 70,-50 85,-20 C95,5 80,35 50,50 C20,65 -40,70 -90,40 Z"/>
+    <path stroke="#2563EB" stroke-width="1.5" d="M-55,5 C-20,-25 25,-20 55,5"/>
+    <path d="M85,-20 L125,-8 L88,5 Z"/>
+    <circle cx="18" cy="-28" r="5" fill="#22D3EE" stroke="none"/>
+  </g>
+</svg>
