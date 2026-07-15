@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 160" role="img" aria-labelledby="title desc">
+  <title id="title">Recruiter start-here paths</title>
+  <desc id="desc">Three navigation lanes: cybersecurity, infrastructure, platform and project roles.</desc>
+  <rect width="1120" height="160" rx="14" fill="#020617" stroke="#1E293B"/>
+  <text x="28" y="36" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#22D3EE">START HERE</text>
+  <g font-family="IBM Plex Mono,Consolas,monospace">
+    <rect x="28" y="54" width="340" height="84" rx="10" fill="#0F172A" stroke="#2563EB"/>
+    <text x="48" y="84" font-size="14" fill="#FFFFFF">Cybersecurity Roles</text>
+    <text x="48" y="108" font-size="12" fill="#94A3B8">Lab | Event Triage | SecureSkies</text>
+    <rect x="390" y="54" width="340" height="84" rx="10" fill="#0F172A" stroke="#22D3EE"/>
+    <text x="410" y="84" font-size="14" fill="#FFFFFF">Infrastructure Roles</text>
+    <text x="410" y="108" font-size="12" fill="#94A3B8">AD Lab | Networking | Automation</text>
+    <rect x="752" y="54" width="340" height="84" rx="10" fill="#0F172A" stroke="#475569"/>
+    <text x="772" y="84" font-size="14" fill="#FFFFFF">Platform and Project Roles</text>
+    <text x="772" y="108" font-size="12" fill="#94A3B8">Crow | Twin Plan | PMP Path</text>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 220" role="img" aria-labelledby="title desc">
+  <title id="title">Professional snapshot</title>
+  <desc id="desc">Scan panel: role, focus, environment, education, learning, location.</desc>
+  <rect width="1120" height="220" rx="14" fill="#020617" stroke="#1E293B"/>
+  <text x="28" y="36" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" fill="#22D3EE">QUICK PROFESSIONAL SNAPSHOT</text>
+  <g font-family="IBM Plex Mono,Consolas,monospace">
+    <text x="28" y="78" font-size="12" fill="#94A3B8">Current Role</text>
+    <text x="28" y="100" font-size="15" fill="#FFFFFF">IT Specialist - Tekfen Construction</text>
+    <text x="400" y="78" font-size="12" fill="#94A3B8">Focus</text>
+    <text x="400" y="100" font-size="15" fill="#FFFFFF">Cybersecurity and Enterprise Infrastructure</text>
+    <text x="28" y="140" font-size="12" fill="#94A3B8">Environment</text>
+    <text x="28" y="162" font-size="15" fill="#FFFFFF">Industrial and Enterprise IT</text>
+    <text x="400" y="140" font-size="12" fill="#94A3B8">Education</text>
+    <text x="400" y="162" font-size="15" fill="#FFFFFF">BSc Computer Science / IT - Cybersecurity</text>
+    <text x="28" y="196" font-size="12" fill="#94A3B8">Learning</text>
+    <text x="120" y="196" font-size="14" fill="#F59E0B">CompTIA Security+ and PMP</text>
+    <text x="400" y="196" font-size="12" fill="#94A3B8">Location</text>
+    <text x="490" y="196" font-size="14" fill="#CBD5E1">Jeddah, Saudi Arabia</text>
+  </g>
+</svg>
