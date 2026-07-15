@@ -44,7 +44,6 @@ Progress values represent project or learning completion only.
 They do not represent competency percentages.
 
 Do not display unresolved values.
-Resume PDF: OWNER INPUT REQUIRED — APPROVED ATS PDF NOT PRESENT
 -->
 
 <h1 align="center">Muhanad Ghurab</h1>
@@ -68,6 +67,7 @@ and engineering trusted digital operations.
 </p>
 
 <p align="center">
+  <a href="./resume/Muhanad-Ghurab-ATS-Resume.pdf"><img src="https://img.shields.io/badge/ATS_Resume-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=22D3EE" alt="ATS Resume" /></a>
   <a href="https://github.com/MuhanadGhurab?tab=repositories"><img src="https://img.shields.io/badge/GitHub_Projects-0F172A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub Projects" /></a>
   <a href="https://www.linkedin.com/in/muhanad-ghurab-141btb414"><img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" /></a>
   <a href="mailto:muhanadghurab@gmail.com"><img src="https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=020617" alt="Email" /></a>
@@ -113,11 +113,16 @@ Muhanad Ghurab is a Cybersecurity & IT Infrastructure Specialist supporting ente
 
 ## 📄 Resume
 
-Approved ATS résumé PDF is **not yet present** in this repository.
+Cybersecurity and IT Infrastructure Specialist with enterprise-environment experience, practical cybersecurity projects, and active development through CompTIA Security+ and PMP studies.
 
-See [`resume/README.md`](resume/README.md) for naming, ATS rules, and owner upload steps.
+<p align="center">
+  <a href="./resume/Muhanad-Ghurab-ATS-Resume.pdf"><img src="https://img.shields.io/badge/View_ATS_Resume-0F172A?style=for-the-badge&logo=adobeacrobatreader&logoColor=22D3EE" alt="View ATS Resume" /></a>
+  <a href="https://github.com/MuhanadGhurab/MuhanadGhurab/raw/main/resume/Muhanad-Ghurab-ATS-Resume.pdf"><img src="https://img.shields.io/badge/Download_PDF-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=FFFFFF" alt="Download PDF" /></a>
+  <a href="https://www.linkedin.com/in/muhanad-ghurab-141btb414"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" /></a>
+  <a href="https://github.com/MuhanadGhurab"><img src="https://img.shields.io/badge/GitHub_Portfolio-181717?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub Portfolio" /></a>
+</p>
 
-When approved, the file will be: `resume/Muhanad-Ghurab-ATS-Resume.pdf`
+Editable DOCX and ATS checklist: [`resume/README.md`](resume/README.md)
 
 ---
 
