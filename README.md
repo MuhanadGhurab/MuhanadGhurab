@@ -25,107 +25,76 @@ IT Specialist — Tekfen Construction
 Professional Identity:
 Cybersecurity • Infrastructure • Enterprise Technology
 
+Primary Title:
+Cybersecurity & IT Infrastructure Specialist
+
 Security+ Status:
 In Progress
 
 PMP Status:
 In Progress
 
-GitHub Portfolio Foundation:
-75%
+Approved ATS Resume:
+resume/Muhanad-Ghurab-ATS-Resume.pdf
 
-Enterprise Cybersecurity Lab Documentation:
-80%
+Progress Source:
+data/profile-status.json
 
-Security+ Learning Path:
-30%
+Progress values represent project or learning completion only.
+They do not represent competency percentages.
 
-PMP Learning Path:
-20%
-
-Crow Ecosystem Documentation:
-70%
-
-Python Portfolio Program:
-55%
-
-Security Toolset Program:
-60%
-
-Drone Security Documentation:
-75%
-
-SecureSkies Digital Twin:
-0%
-
-Java Portfolio Program:
-10%
-
-Robotics Security Documentation:
-20%
-
-Game Development Portfolio:
-30%
-
-Progress values describe project or learning completion only.
-They are not competency percentages.
-
-Update manually after verified milestones.
+Do not display unresolved values.
+Resume PDF: OWNER INPUT REQUIRED — APPROVED ATS PDF NOT PRESENT
 -->
 
-# MUHANAD GHURAB
+<h1 align="center">Muhanad Ghurab</h1>
 
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/cyber-crow-home-static.svg" />
-    <img src="./assets/cyber-crow-home.svg" alt="MUHANAD GHURAB — Cybersecurity, Infrastructure, Enterprise Technology" width="100%" />
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile/cyber-crow-command-center-static.svg" />
+    <img
+      src="./assets/profile/cyber-crow-command-center.svg"
+      width="100%"
+      alt="Muhanad Ghurab cyber portfolio command center featuring an animated binary crow, conceptual enterprise security architecture, and portfolio progress telemetry."
+    />
   </picture>
 </p>
 
+<h3 align="center">Cybersecurity • Infrastructure • Enterprise Technology</h3>
+
 <p align="center">
-  <strong>Cybersecurity &amp; IT Infrastructure Specialist</strong><br/>
-  <em>Securing Enterprise Systems. Building Resilient Infrastructure. Engineering Trusted Digital Operations.</em><br/>
-  Jeddah, Saudi Arabia ·
-  <a href="https://github.com/MuhanadGhurab">GitHub</a> ·
-  <a href="https://www.linkedin.com/in/muhanad-ghurab-141btb414">LinkedIn</a> ·
-  <a href="mailto:muhanadghurab@gmail.com">Email</a>
+Securing enterprise systems, building resilient infrastructure,<br/>
+and engineering trusted digital operations.
+</p>
+
+<p align="center">
+  <a href="https://github.com/MuhanadGhurab?tab=repositories"><img src="https://img.shields.io/badge/GitHub_Projects-0F172A?style=for-the-badge&logo=github&logoColor=22D3EE" alt="GitHub Projects" /></a>
+  <a href="https://www.linkedin.com/in/muhanad-ghurab-141btb414"><img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=FFFFFF" alt="LinkedIn" /></a>
+  <a href="mailto:muhanadghurab@gmail.com"><img src="https://img.shields.io/badge/Email-22D3EE?style=for-the-badge&logo=gmail&logoColor=020617" alt="Email" /></a>
+  <a href="https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab"><img src="https://img.shields.io/badge/Cybersecurity_Lab-0F172A?style=for-the-badge&logoColor=22D3EE" alt="Cybersecurity Lab" /></a>
+  <a href="https://github.com/MuhanadGhurab/crow-ecosystem-platform"><img src="https://img.shields.io/badge/Crow_Ecosystem-0F172A?style=for-the-badge&logoColor=22D3EE" alt="Crow Ecosystem" /></a>
+</p>
+
+<p align="center">
+  <img src="./assets/profile/crow-mark.svg" width="48" height="48" alt="Muhanad Ghurab crow mark" />
 </p>
 
 ---
 
-## Quick professional snapshot
-
-<p align="center">
-  <img src="./assets/professional-snapshot.svg" alt="Snapshot: IT Specialist at Tekfen Construction; cybersecurity and enterprise infrastructure focus; Jeddah" width="100%" />
-</p>
-
-| | |
-|---|---|
-| **Current Role** | IT Specialist — Tekfen Construction |
-| **Focus** | Cybersecurity and Enterprise Infrastructure |
-| **Environment** | Industrial and Enterprise IT |
-| **Education** | BSc Computer Science / IT — Cybersecurity |
-| **Learning** | CompTIA Security+ and PMP — In Progress |
-| **Location** | Jeddah, Saudi Arabia |
-
-Supporting enterprise IT operations within a Tekfen Construction environment associated with Saudi Aramco projects. This is an **environment association** — not direct Aramco employment.
-
----
-
-## Terminal introduction
+## Terminal status
 
 ```text
 $ whoami
 Muhanad Ghurab
 
-$ current_role
+$ role
 IT Specialist — Tekfen Construction
 
-$ operating_domain
-Cybersecurity | Infrastructure | Enterprise Technology
+$ focus
+Cybersecurity | Enterprise Infrastructure | Secure Platforms
 
 $ building
-Security labs | Defensive tools | Secure platforms
+Security Labs | Automation | Technical Portfolio
 
 $ learning
 CompTIA Security+ | PMP
@@ -138,203 +107,141 @@ Jeddah, Saudi Arabia
 
 ## Professional overview
 
-Muhanad Ghurab is a Cybersecurity & IT Infrastructure Specialist supporting enterprise and industrial IT operations as an IT Specialist at Tekfen Construction. Day-to-day work centers on infrastructure reliability, endpoint support, and practical troubleshooting across networked systems in an environment associated with Saudi Aramco projects. His academic foundation is a Bachelor’s specialization in cybersecurity. Outside production duties, he builds privacy-controlled security labs, publishes tested defensive Python and Java utilities, documents SecureSkies as an honest university prototype, and develops secure platform and architecture artifacts. He is progressing through CompTIA Security+ and PMP to deepen security operations, governance, and delivery discipline.
+Muhanad Ghurab is a Cybersecurity & IT Infrastructure Specialist supporting enterprise and industrial IT operations as an IT Specialist at Tekfen Construction. His work centers on infrastructure reliability, endpoint support, and practical troubleshooting across networked systems in an environment associated with Saudi Aramco projects. With a Bachelor’s specialization in cybersecurity, he builds privacy-controlled security labs, publishes tested defensive Python and Java utilities, documents SecureSkies as an honest university prototype, and develops secure-platform architecture artifacts. He is progressing through CompTIA Security+ and PMP to strengthen security operations and delivery discipline.
 
 ---
 
-## Featured work
+## 📄 Resume
 
-### 1. Enterprise Cybersecurity Lab
+Approved ATS résumé PDF is **not yet present** in this repository.
 
-Enterprise-style security and infrastructure laboratory covering Windows Server, Active Directory, Linux, segmentation, monitoring, and defensive analysis.
+See [`resume/README.md`](resume/README.md) for naming, ATS rules, and owner upload steps.
 
-- **Status:** Active documentation and evidence development  
-- **Evidence:** Architecture, security boundaries, [interview walkthrough](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/blob/main/docs/INTERVIEW-WALKTHROUGH.md), sanitized [evidence framework](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/evidence) (real screenshots pending capture)  
-- **Technologies:** Windows Server · Active Directory · VMware · Security Onion · Kali Linux · Ubuntu  
-- **Repository:** [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab)
-
-### 2. SecureSkies — Drone Security Research
-
-Four-person university project exploring Raspberry Pi, Pixhawk flight control, physical surveillance concepts, network monitoring, and alerting. Partially integrated prototype; **full autonomous deployment not completed**.
-
-- **Status:** Public historical documentation complete; software digital twin planned  
-- **Evidence:** Honest test summary (20 pass / 3 fail / 1 inconclusive), architecture reconstructions, publication boundaries  
-- **Achievement:** Second Place — University Graduation Project · Owner-verified; supporting artifact pending  
-- **Technologies:** Raspberry Pi · Pixhawk · Mission Planner · Wireshark · tcpdump  
-- **Repository:** [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security)
-
-### 3. Mini IT and Cyber Projects
-
-Defensive utilities for hashing, log summarization, IOC extraction, evidence manifests, and Windows event triage — with tests and CI.
-
-- **Status:** Active development; Java and Python CI passing  
-- **Evidence:** Tested tools, defensive-use boundaries, [interview walkthrough](https://github.com/MuhanadGhurab/mini-it-cyber-projects/blob/main/docs/INTERVIEW-WALKTHROUGH.md)  
-- **Technologies:** Python · Java · pytest · GitHub Actions  
-- **Repository:** [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects)
-
-### 4. Crow Ecosystem Platform
-
-Public product and engineering portfolio for Crow ecosystem architecture and platform work.
-
-- **Status:** Active development — public platform codebase  
-- **Evidence:** Public repository architecture and product surface  
-- **Technologies:** TypeScript · React · Next.js · platform engineering patterns  
-- **Repository:** [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform)
-
-### 5. Windows Event Triage Helper
-
-Defensive Python helper for structured Windows event triage practice and interview-ready evidence narratives.
-
-- **Status:** Published with tests inside the mini-project suite  
-- **Evidence:** Tool README + automated tests  
-- **Technologies:** Python · Windows Event concepts · defensive analysis  
-- **Path:** [windows_event_triage_helper](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/windows_event_triage_helper)
-
-### 6. Interview and Evidence Documentation
-
-Cross-repository interview walkthroughs and privacy-controlled evidence frameworks that make the portfolio reviewable without production secrets.
-
-- **Status:** Published documentation  
-- **Evidence:** Lab and tool interview guides; sanitized evidence packing rules  
-- **Links:** [Lab interview](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/blob/main/docs/INTERVIEW-WALKTHROUGH.md) · [SecureSkies interview](https://github.com/MuhanadGhurab/secureskies-drone-security/blob/main/docs/portfolio/INTERVIEW-WALKTHROUGH.md)
+When approved, the file will be: `resume/Muhanad-Ghurab-ATS-Resume.pdf`
 
 ---
 
-## Project evidence
+## 🛡️ Professional Highlights
+
+- **IT Specialist — Tekfen Construction**
+- Enterprise and industrial IT environment exposure
+- Supporting enterprise IT operations within a Tekfen Construction environment associated with Saudi Aramco projects
+- Bachelor’s specialization in Cybersecurity
+- **Second Place — University Graduation Project** (SecureSkies) — Owner-verified; supporting artifact pending
+- Enterprise Cybersecurity Lab
+- Crow Ecosystem Platform
+- CompTIA Security+ — In Progress
+- PMP — In Progress
+
+---
+
+## 🧭 Conceptual Portfolio Architecture
 
 <p align="center">
-  <img src="./assets/evidence-strip.svg" alt="Evidence: tested Python utilities, Java and Python CI, privacy validation, architecture, interview walkthroughs, defensive tooling" width="100%" />
+  <img src="./assets/profile/enterprise-orbit-diagram.svg" width="100%" alt="Conceptual portfolio architecture with secure core and Identity, Infrastructure, Detection, Automation, Governance, Projects nodes" />
 </p>
 
-- Tested Python utilities  
-- Java and Python CI  
-- Security and privacy validation  
-- Traceable project documentation  
-- Architecture diagrams  
-- Interview walkthroughs  
-- Defensive security tooling  
-- Sanitized evidence framework  
-
-Hard-coded “total passing tests” counts are intentionally omitted so the homepage stays maintainable.
+This diagram is a **conceptual map of the public portfolio domains**. It is not an employer network, Tekfen architecture, or Saudi Aramco production diagram.
 
 ---
 
-## Technical capability matrix
+## 📈 Current Development
 
-Classification (optional): **Hands-On** · **Working Knowledge** · **Project Exposure** · **Currently Developing**
+<p align="center">
+  <img src="./assets/profile/portfolio-telemetry.svg" width="100%" alt="Portfolio telemetry chart showing project and learning progress values from profile-status.json" />
+</p>
+
+**Project and learning progress — not competency ratings.**  
+Source: [`data/profile-status.json`](data/profile-status.json)
+
+<p align="center">
+  <img src="./assets/profile/security-status.svg" width="100%" alt="Operating status: docs validated, twin planned, certifications in progress, privacy protected" />
+</p>
+
+---
+
+## 🧪 Featured Projects
+
+<p align="center">
+  <img src="./assets/profile/project-navigation.svg" width="100%" alt="Project navigation rail reminder for Resume, Lab, SecureSkies, Crow, Tools, Contact" />
+</p>
+
+| Project | Status | Link |
+|---------|--------|------|
+| Crow Ecosystem Platform | Active Development | [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform) |
+| Enterprise Cybersecurity Lab | Active Documentation | [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab) |
+| SecureSkies Drone Security | Historical docs complete; twin planned | [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security) |
+| Mini IT and Cyber Projects | Active Development · CI | [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) |
+| Windows Event Triage Helper | Published utility | [path](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/windows_event_triage_helper) |
+| Smart Methods Robotics | Planned | Planned |
+| Security Automation Toolkit | Planned | Planned |
+| Desktop Applications | Planned | Planned |
+| Cyber Learning Games | Planned | Planned |
+
+SecureSkies status: partially integrated academic prototype; **full autonomous deployment not completed**.
+
+---
+
+## ⚙️ Technical Capabilities
+
+Classification: **Hands-On** · **Working Knowledge** · **Project Exposure** · **Currently Developing**
 
 ### Cybersecurity
-
 Security Monitoring · Log Analysis · Security Hardening · Incident Response Fundamentals · Network Security · Identity and Access · Vulnerability Assessment Fundamentals · Risk Awareness
 
 ### Infrastructure
-
 Windows Server · Active Directory · DNS · DHCP · Linux · VMware · Endpoint Support · Enterprise Troubleshooting
 
 ### Networking
-
 TCP/IP · Segmentation · VLAN Concepts · Routing and Switching Fundamentals · Firewalls · Packet Analysis
 
-### Tools
-
+### Security Tools
 Security Onion · Kali Linux · Wireshark · Nmap · Git · GitHub · Microsoft 365
 
-### Software and platform engineering
-
+### Platform Engineering
 Python · Java · TypeScript · React · Next.js · Tailwind CSS · Prisma · PostgreSQL · Supabase · Playwright · Tauri
 
 No skill percentages are published.
 
 ---
 
-## Current operating status
+## 🧠 Learning Tracks
 
-<!-- Progress values = project/learning completion only. Sync from PROFILE CONFIGURATION. -->
+| Track | Status | Notes |
+|-------|--------|-------|
+| CompTIA Security+ | In Progress | Threats, architecture, operations, risk, identity, incident response fundamentals |
+| PMP | In Progress | Planning, risk, stakeholders, schedule, quality, governance |
 
-<p align="center">
-  <img src="./assets/learning-progress.svg" alt="Portfolio foundation 75%, lab docs 80%, Security+ 30%, PMP 20%" width="720" />
-</p>
-
-<p align="center">
-  <img src="./assets/project-status.svg" alt="Drone docs 75%, digital twin 0%, Python 55%, toolset 60%, Crow docs 70%" width="720" />
-</p>
-
-| Program | Progress |
-|---------|----------|
-| GitHub Portfolio Foundation | 75% |
-| Enterprise Cybersecurity Lab Documentation | 80% |
-| Drone Security Documentation | 75% |
-| SecureSkies Digital Twin | 0% — Planned |
-| Python Portfolio Program | 55% |
-| Security Toolset | 60% |
-| Crow Ecosystem Documentation | 70% |
-| CompTIA Security+ Learning Path | 30% |
-| PMP Learning Path | 20% |
+No exam eligibility or completion claims are published until verified.
 
 ---
 
-## Current learning
+## 📊 GitHub Evidence
 
-| Path | Status | Focus |
-|------|--------|-------|
-| **CompTIA Security+** | In Progress | Developing security fundamentals across threats, architecture, operations, risk, identity, and incident response. |
-| **PMP** | In Progress | Developing structured project delivery, planning, risk, stakeholder, schedule, quality, and governance capabilities. |
+Public activity reflects real commits and real repositories only. No fabricated stars, streaks, or contribution totals are mirrored here.
 
-No exam eligibility or completion claims are published until verified by the owner.
-
----
-
-## Selected achievements
-
-- **Second Place — University Graduation Project** (SecureSkies) — Owner-verified; supporting artifact pending  
-- Built an enterprise cybersecurity laboratory with privacy-controlled documentation  
-- Published tested defensive security tools (Python/Java) with CI  
-- Supporting enterprise IT operations at Tekfen Construction  
-- Developed Crow Ecosystem architecture and platform work (subject to public/private repository boundaries)
-
----
-
-## Start Here
-
-<p align="center">
-  <img src="./assets/recruiter-path.svg" alt="Start Here paths for cybersecurity, infrastructure, and platform roles" width="100%" />
-</p>
-
-### For cybersecurity roles
-
-1. [Enterprise Cybersecurity Lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab)  
-2. [Windows Event Triage Helper](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/windows_event_triage_helper)  
-3. [SecureSkies security review](https://github.com/MuhanadGhurab/secureskies-drone-security)
-
-### For infrastructure roles
-
-1. [Windows Server and Active Directory lab docs](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab)  
-2. Networking and systems documentation inside the lab repository  
-3. [IT automation / defensive utilities](https://github.com/MuhanadGhurab/mini-it-cyber-projects)
-
-### For platform and project roles
-
-1. [Crow Ecosystem Platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform)  
-2. [SecureSkies modernization plan](https://github.com/MuhanadGhurab/secureskies-drone-security/blob/main/docs/modern/DIGITAL-TWIN-PLAN.md)  
-3. PMP development path (In Progress)
-
----
-
-## Contact
-
-Open to opportunities involving cybersecurity, enterprise IT infrastructure, security operations, secure platform engineering, automation, and technical project delivery.
-
-- GitHub: [github.com/MuhanadGhurab](https://github.com/MuhanadGhurab)  
-- LinkedIn: [muhanad-ghurab-141btb414](https://www.linkedin.com/in/muhanad-ghurab-141btb414)  
-- Email: [muhanadghurab@gmail.com](mailto:muhanadghurab@gmail.com)
-
----
+- Profile: [github.com/MuhanadGhurab](https://github.com/MuhanadGhurab)
+- Lab: [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab)
+- SecureSkies: [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security)
+- Tools: [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects)
+- Crow: [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform)
 
 <details>
 <summary>Maintainer notes</summary>
 
-- Homepage docs: [`docs/HOMEPAGE-ARCHITECTURE.md`](docs/HOMEPAGE-ARCHITECTURE.md) · [`docs/HOMEPAGE-MAINTENANCE.md`](docs/HOMEPAGE-MAINTENANCE.md)  
-- Brand: [`docs/BRAND-GUIDE.md`](docs/BRAND-GUIDE.md) · Privacy: [`docs/PRIVACY-BOUNDARIES.md`](docs/PRIVACY-BOUNDARIES.md)  
-- Progress values update manually only — never invent metrics  
+- Render telemetry: `python scripts/render-profile-assets.py`
+- Design decision: [`docs/HERO-DESIGN-DECISION.md`](docs/HERO-DESIGN-DECISION.md)
+- Compatibility: [`docs/GITHUB-COMPATIBILITY.md`](docs/GITHUB-COMPATIBILITY.md)
+- Brand: [`docs/BRAND-GUIDE.md`](docs/BRAND-GUIDE.md)
 
 </details>
+
+---
+
+## 📫 Contact
+
+Open to opportunities involving cybersecurity, enterprise IT infrastructure, security operations, secure platform engineering, automation, and technical project delivery.
+
+- GitHub: [https://github.com/MuhanadGhurab](https://github.com/MuhanadGhurab)
+- LinkedIn: [https://www.linkedin.com/in/muhanad-ghurab-141btb414](https://www.linkedin.com/in/muhanad-ghurab-141btb414)
+- Email: [muhanadghurab@gmail.com](mailto:muhanadghurab@gmail.com)

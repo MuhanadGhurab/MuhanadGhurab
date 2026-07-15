@@ -1,49 +1,46 @@
-# Profile Content Source
-
-Canonical wording for the GitHub profile README. Keep README.md and this file aligned.
+# Profile Content — Locked Visible Wording
 
 ## Identity
 
-- **Name:** Muhanad Ghurab
-- **Title:** Cybersecurity & IT Infrastructure Specialist
-- **Identity line:** Cybersecurity • Infrastructure • Enterprise Technology
-- **Tagline:** Securing Enterprise Systems. Building Resilient Infrastructure. Engineering Trusted Digital Operations.
-- **Location:** Jeddah, Saudi Arabia
-- **Role:** IT Specialist — Tekfen Construction
+Muhanad Ghurab  
+Cybersecurity • Infrastructure • Enterprise Technology  
+Cybersecurity & IT Infrastructure Specialist
 
-## Professional summary
+## Supporting statement
 
-Muhanad Ghurab is a Cybersecurity & IT Infrastructure Specialist with a Bachelor’s background in Computer Science / IT specializing in Cybersecurity. He currently works as an IT Specialist at Tekfen Construction, supporting enterprise and industrial IT operations within an environment associated with Saudi Aramco projects. His day-to-day focus includes infrastructure support, endpoint reliability, and practical troubleshooting across networked systems.
+Securing Enterprise Systems.  
+Building Resilient Infrastructure.  
+Engineering Trusted Digital Operations.
 
-Outside production work, he develops home-lab security environments, builds defensive automation and learning projects, and documents architectures with clear privacy boundaries. He is currently progressing through CompTIA Security+ and PMP learning paths, and continues expanding a public GitHub portfolio around cybersecurity, infrastructure, Python, Java, and secure platform engineering.
+## Role
 
-## Highlights
+IT Specialist — Tekfen Construction  
+Jeddah, Saudi Arabia
 
-- IT Specialist — Tekfen Construction
-- Enterprise and industrial IT exposure
-- Saudi Aramco project-environment exposure (not direct Aramco employment)
-- Bachelor’s specialization in Cybersecurity
-- Second Place — University Graduation Project
-- Enterprise Cybersecurity Lab
-- Crow Ecosystem Platform
-- CompTIA Security+ — In Progress
-- PMP — In Progress
+## Environment
+
+Supporting enterprise IT operations within a Tekfen Construction environment associated with Saudi Aramco projects.
+
+## Education
+
+Bachelor’s degree in Computer Science / IT, specializing in Cybersecurity.
+
+## Learning
+
+CompTIA Security+ — In Progress  
+PMP — In Progress
+
+## Achievement
+
+Second Place — University Graduation Project (SecureSkies)  
+Owner-verified; supporting artifact pending.
+
+## SecureSkies
+
+Partially integrated academic prototype; full autonomous deployment not completed.
 
 ## Contact
 
-- GitHub: https://github.com/MuhanadGhurab
-- LinkedIn: https://www.linkedin.com/in/muhanad-ghurab-141btb414
-- Email: muhanadghurab@gmail.com
-
-## Learning status
-
-| Path | Status |
-|------|--------|
-| CompTIA Security+ | In Progress |
-| PMP | In Progress |
-
-## Featured project descriptions (public-safe)
-
-1. **Crow Ecosystem Platform** — Public Next.js multi-tenant platform repository covering governed lifecycle surfaces (public portal through runtime concepts).
-2. **Enterprise Cybersecurity Lab** — Sanitized documentation of a personal enterprise-style home lab.
-3. **Mini IT & Cyber Projects** — Monorepo for small defensive utilities and learning apps.
+GitHub: https://github.com/MuhanadGhurab  
+LinkedIn: https://www.linkedin.com/in/muhanad-ghurab-141btb414  
+Email: muhanadghurab@gmail.com
