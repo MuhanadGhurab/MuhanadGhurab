@@ -2,6 +2,15 @@
 
 All notable changes to the Muhanad Ghurab profile repository and portfolio program documentation.
 
+## [2026-07-15] — MGH.GITHUB.ECOSYSTEM.2
+
+### Updated
+
+- Lab documentation progress to 70% after sanitized evidence pack
+- Python portfolio / security toolset progress after IOC + manifest tools
+- Featured portfolio links to evidence guide and new tool READMEs
+- Current focus wording toward lab evidence and defensive tooling
+
 ## [2026-07-15] — MGH.GITHUB.ECOSYSTEM.1
 
 ### Added

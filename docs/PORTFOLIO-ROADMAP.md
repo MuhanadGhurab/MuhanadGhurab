@@ -30,23 +30,25 @@ Incremental program for the Muhanad Ghurab GitHub ecosystem.
 
 ## Phase 2 — Documentation foundation
 
-- `enterprise-cybersecurity-lab` foundation
+- `enterprise-cybersecurity-lab` sanitized evidence pack (network, AD, monitoring, IR)
 - Crow architecture already public via `crow-ecosystem-platform`
 - SecSky / robotics documentation repositories deferred until evidence review
 
-**Status:** Lab foundation included; SecSky/robotics deferred
+**Status:** Lab evidence documentation Active; screenshots pending
 
 ## Phase 3 — Small functional projects
 
-Preferred initial set (this milestone):
+Completed set:
 
 1. Python file hash verifier
 2. Java role-based access simulator
 3. Python log summary utility
+4. Python IOC text extractor
+5. Python evidence manifest builder
 
 Optional (deferred): binary-crow educational game
 
-**Status:** Implementing in `mini-it-cyber-projects`
+**Status:** Five functional prototypes in `mini-it-cyber-projects`
 
 ## Phase 4 — Hybrid projects
 
