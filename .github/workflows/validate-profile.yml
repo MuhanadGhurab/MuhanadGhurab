@@ -41,9 +41,21 @@ jobs:
           test -f docs/BRAND-GUIDE.md
           test -f docs/PROFILE-CONTENT.md
           test -f resume/README.md
+          test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
+          test -f resume/Muhanad-Ghurab-ATS-Resume.docx
+          test -f resume/Muhanad-Ghurab-ATS-Resume-preview.png
+          test -f resume/source/resume-data.json
+          test -f resume/ATS-CHECK.md
+          test -f resume/tests/test_resume.py
+
+      - name: Install resume validation deps
+        run: pip install pypdf
 
       - name: Run profile asset tests
         run: python tests/test_profile_assets.py
+
+      - name: Run resume ATS tests
+        run: python resume/tests/test_resume.py
 
       - name: Secret pattern scan
         run: |
@@ -90,10 +102,11 @@ jobs:
           ! grep -qi "Security+ Certified" README.md
           ! grep -qi "Certified PMP" README.md
           ! grep -qi "Aramco Employee" README.md
-          # Do not link ATS PDF until file exists
-          if grep -E '\[[^\]]*\]\([^)]*Muhanad-Ghurab-ATS-Resume\.pdf\)' README.md; then
-            test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
-          fi
+          grep -q "Muhanad-Ghurab-ATS-Resume.pdf" README.md
+          ! grep -q "OWNER INPUT REQUIRED" README.md
+          ! grep -qi "Resume Pending" README.md
+          # Resume PDF must exist when linked
+          test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
 
       - name: Local asset references exist
         run: |
