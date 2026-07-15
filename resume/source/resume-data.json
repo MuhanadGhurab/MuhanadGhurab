@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "updated": "2026-07-15",
+    "document_title": "Muhanad Ghurab — ATS Resume",
+    "author": "Muhanad Ghurab",
+    "subject": "Cybersecurity and IT Infrastructure Resume",
+    "keywords": [
+      "Cybersecurity",
+      "IT Infrastructure",
+      "Windows Server",
+      "Active Directory",
+      "Network Security",
+      "Security Onion",
+      "VMware",
+      "GitHub"
+    ]
+  },
+  "identity": {
+    "name": "Muhanad Ghurab",
+    "title": "Cybersecurity & IT Infrastructure Specialist",
+    "location": "Jeddah, Saudi Arabia",
+    "phone": "+966 59 700 4895",
+    "email": "muhanadghurab@gmail.com",
+    "linkedin_display": "linkedin.com/in/muhanad-ghurab-141btb414",
+    "linkedin_url": "https://www.linkedin.com/in/muhanad-ghurab-141btb414",
+    "github_display": "github.com/MuhanadGhurab",
+    "github_url": "https://github.com/MuhanadGhurab",
+    "github_username": "MuhanadGhurab"
+  },
+  "summary": "Cybersecurity and IT Specialist with hands-on experience supporting enterprise infrastructure within Tekfen Construction in an industrial environment associated with Saudi Aramco projects. Experienced in Windows administration, infrastructure support, network operations, cybersecurity laboratory development, troubleshooting, and secure enterprise environments. Currently advancing expertise through CompTIA Security+ and PMP studies while building enterprise-scale cybersecurity laboratories and security-focused software projects.",
+  "experience": [
+    {
+      "title": "IT Specialist",
+      "organization": "Tekfen Construction",
+      "location": "Jeddah, Saudi Arabia",
+      "dates": "2025–Present",
+      "bullets": [
+        "Support enterprise IT infrastructure across large industrial and construction environments.",
+        "Provide technical support for users, systems, and enterprise applications.",
+        "Assist with infrastructure security and compliance practices aligned with project requirements.",
+        "Troubleshoot Windows, networking, hardware, and connectivity issues.",
+        "Participate in secure IT operations supporting Saudi Aramco project environments."
+      ]
+    },
+    {
+      "title": "Guest Care Center",
+      "organization": "Saudi Airlines (SV)",
+      "location": "Jeddah, Saudi Arabia",
+      "dates": "2024–2025",
+      "bullets": [
+        "Provided guest support in a fast-paced, customer-focused airline operations environment.",
+        "Maintained service efficiency, professionalism, and clear communication while resolving guest requests."
+      ]
+    },
+    {
+      "title": "Web Application Administrator",
+      "organization": "MTA Events",
+      "location": "Jeddah, Saudi Arabia",
+      "dates": "2021–2024",
+      "bullets": [
+        "Managed and maintained web applications tailored to operational and industrial use.",
+        "Applied data-security controls and supported reliable application administration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Cybersecurity Lab",
+      "description": "Designed and developed an enterprise-style cybersecurity laboratory using VMware, Windows Server, Active Directory, Kali Linux, Ubuntu, and Security Onion for identity services, network defense, security monitoring, log analysis, and attack-and-defense learning.",
+      "url": "https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab"
+    },
+    {
+      "name": "SecSky / SecureSkies Drone Security Project",
+      "achievement": "Second Place — University Graduation Project",
+      "description": "Cybersecurity-focused graduation project centered on secure drone communications concepts, data integrity, and resilient architecture for hostile or unreliable environments. Public historical portfolio documents a partially integrated prototype.",
+      "url": "https://github.com/MuhanadGhurab/secureskies-drone-security"
+    },
+    {
+      "name": "Crow Ecosystem Platform",
+      "description": "Multi-tenant enterprise platform portfolio focused on secure identity, tenant isolation, governance, enterprise workflows, and resilient platform operations.",
+      "url": "https://github.com/MuhanadGhurab/crow-ecosystem-platform"
+    }
+  ],
+  "skills": {
+    "Cybersecurity": "Security Operations, Security Monitoring, Network Security, Security Hardening, Risk Assessment, Incident Response Fundamentals",
+    "Infrastructure": "Windows Server, Active Directory, Linux, VMware, DNS, DHCP, Enterprise Technical Support",
+    "Security Tools": "Security Onion, Kali Linux, Wireshark, Nmap, Git, GitHub",
+    "Development": "Python, Java, JavaScript, TypeScript, React, Next.js, PostgreSQL",
+    "Networking": "TCP/IP, Network Segmentation, Firewall Administration, Network Diagnostics"
+  },
+  "education": {
+    "degree": "Bachelor of Computer Science / IT — Cybersecurity",
+    "institution": "Jeddah International College",
+    "year": "2024",
+    "achievement": "Second Place — University Graduation Project"
+  },
+  "development": [
+    "CompTIA Security+ — In Progress",
+    "Project Management Professional (PMP) — In Progress"
+  ],
+  "languages": "Arabic | English",
+  "forbidden_phrases": [
+    "Security+ Certified",
+    "PMP Certified",
+    "Certified PMP",
+    "Saudi Aramco Employee",
+    "IT Specialist at Saudi Aramco",
+    "TODO",
+    "TBD",
+    "lorem ipsum",
+    "Muhammad Thowfeek"
+  ]
+}
