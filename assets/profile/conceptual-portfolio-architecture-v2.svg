@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual portfolio architecture</title>
+  <desc id="desc">Large isometric portfolio map: secure core with Identity, Infrastructure, Detection, Automation, Governance, Projects. Conceptual only — not an employer network.</desc>
+  <defs>
+    <style><![CDATA[
+      .t{font-family:IBM Plex Mono,Consolas,monospace;font-size:22px;fill:#FFFFFF;font-weight:700}
+      .n{font-family:IBM Plex Mono,Consolas,monospace;font-size:13px;fill:#94A3B8}
+      .l{font-family:IBM Plex Mono,Consolas,monospace;font-size:15px;fill:#CBD5E1}
+      @media (prefers-reduced-motion:no-preference){.float{animation:float 8s ease-in-out infinite}.p{animation:pulse 3.5s ease-in-out infinite}}
+      @media (prefers-reduced-motion:reduce){.float,.p{animation:none!important}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+      @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    ]]></style>
+  </defs>
+  <rect width="1600" height="520" rx="18" fill="#020617" stroke="#1E293B"/>
+  <text class="t" x="48" y="52">Conceptual Portfolio Architecture</text>
+  <text class="n" x="48" y="78">Not an employer or client network diagram</text>
+  <g class="float" transform="translate(800,280)">
+    <polygon points="0,-100 130,-45 130,70 0,125 -130,70 -130,-45" fill="#0B1224" stroke="#22D3EE" stroke-width="3.5"/>
+    <polygon points="0,-100 130,-45 0,10 -130,-45" fill="#132033" stroke="#2563EB" stroke-width="2"/>
+    <text x="0" y="8" text-anchor="middle" class="l" fill="#FFFFFF" font-size="18">SECURE CORE</text>
+    <g stroke="#475569" stroke-width="2" fill="none">
+      <path d="M0,-100 L0,-190"/><path d="M130,-45 L230,-90"/><path d="M130,70 L230,130"/><path d="M0,125 L0,210"/><path d="M-130,70 L-230,130"/><path d="M-130,-45 L-230,-90"/>
+    </g>
+    <circle class="p" cx="0" cy="-200" r="10" fill="#22D3EE"/><text class="l" x="0" y="-220" text-anchor="middle">Identity</text>
+    <circle class="p" cx="240" cy="-95" r="10" fill="#22D3EE"/><text class="l" x="260" y="-90">Infrastructure</text>
+    <circle class="p" cx="240" cy="138" r="10" fill="#22D3EE"/><text class="l" x="260" y="143">Detection</text>
+    <circle class="p" cx="0" cy="220" r="10" fill="#22D3EE"/><text class="l" x="0" y="245" text-anchor="middle">Automation</text>
+    <circle class="p" cx="-240" cy="138" r="10" fill="#22D3EE"/><text class="l" x="-260" y="143" text-anchor="end">Governance</text>
+    <circle class="p" cx="-240" cy="-95" r="10" fill="#22D3EE"/><text class="l" x="-260" y="-90" text-anchor="end">Projects</text>
+  </g>
+</svg>
