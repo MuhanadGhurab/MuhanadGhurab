@@ -16,64 +16,36 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
       - name: Required files exist
         run: |
           set -euo pipefail
           test -f README.md
           test -f LICENSE
-          test -f assets/cyber-crow-home.svg
-          test -f assets/cyber-crow-home-static.svg
-          test -f assets/professional-snapshot.svg
-          test -f assets/evidence-strip.svg
-          test -f assets/recruiter-path.svg
-          test -f assets/learning-progress.svg
-          test -f assets/project-status.svg
-          test -f docs/HOMEPAGE-AUDIT.md
-          test -f docs/HOMEPAGE-ARCHITECTURE.md
-          test -f docs/HOMEPAGE-CONTENT.md
-          test -f docs/HOMEPAGE-MAINTENANCE.md
+          test -f data/profile-status.json
+          test -f scripts/render-profile-assets.py
+          test -f tests/test_profile_assets.py
+          test -f assets/profile/cyber-crow-command-center.svg
+          test -f assets/profile/cyber-crow-command-center-static.svg
+          test -f assets/profile/crow-mark.svg
+          test -f assets/profile/enterprise-orbit-diagram.svg
+          test -f assets/profile/portfolio-telemetry.svg
+          test -f assets/profile/security-status.svg
+          test -f assets/profile/project-navigation.svg
+          test -f docs/HERO-DESIGN-DECISION.md
+          test -f docs/GITHUB-COMPATIBILITY.md
           test -f docs/BRAND-GUIDE.md
-          test -f docs/PORTFOLIO-ROADMAP.md
-          test -f docs/CHANGELOG.md
-          test -f docs/PRIVACY-BOUNDARIES.md
+          test -f docs/PROFILE-CONTENT.md
+          test -f resume/README.md
 
-      - name: Validate SVG XML
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          import xml.etree.ElementTree as ET
-          from pathlib import Path
-          for path in Path("assets").glob("*.svg"):
-              ET.parse(path)
-              text = path.read_text(encoding="utf-8")
-              assert "<script" not in text.lower(), path
-              print(f"OK {path}")
-          PY
+      - name: Run profile asset tests
+        run: python tests/test_profile_assets.py
 
-      - name: Check asset sizes
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          from pathlib import Path
-          limits = {
-              "cyber-crow-home.svg": 200_000,
-              "cyber-crow-home-static.svg": 100_000,
-              "social-preview.png": 2_500_000,
-          }
-          for name, limit in limits.items():
-              p = Path("assets") / name
-              if not p.exists():
-                  if name == "social-preview.png":
-                      print("WARN missing social-preview.png")
-                      continue
-                  raise SystemExit(f"missing {name}")
-              size = p.stat().st_size
-              print(f"{name}: {size} bytes")
-              if size > limit:
-                  raise SystemExit(f"{name} exceeds {limit} bytes")
-          PY
-
-      - name: Scan for secrets and sensitive IDs
+      - name: Secret pattern scan
         run: |
           set -euo pipefail
           python3 - <<'PY'
@@ -87,7 +59,7 @@ jobs:
               re.compile(r"BEGIN (RSA|OPENSSH|EC) PRIVATE KEY"),
               re.compile(r"postgres(ql)?://[^\s]+:[^\s]+@"),
           ]
-          skip = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+          skip = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".pdf"}
           hits = []
           for path in Path(".").rglob("*"):
               if not path.is_file() or path.suffix.lower() in skip:
@@ -107,23 +79,21 @@ jobs:
           print("secret pattern scan clean")
           PY
 
-      - name: README identity and accuracy checks
+      - name: Accuracy and resume-link gates
         run: |
           set -euo pipefail
-          grep -q "MUHANAD GHURAB" README.md
+          grep -q "Muhanad Ghurab" README.md
           grep -q "IT Specialist — Tekfen Construction" README.md
           grep -q "In Progress" README.md
-          grep -q "cyber-crow-home.svg" README.md
-          grep -q "partially integrated\|Partially integrated" README.md
-          grep -q "Owner-verified; supporting artifact pending" README.md
-          grep -q "enterprise-cybersecurity-lab" README.md
-          grep -q "secureskies-drone-security" README.md
-          grep -q "mini-it-cyber-projects" README.md
+          grep -q "cyber-crow-command-center.svg" README.md
+          grep -q "profile-status.json" README.md
           ! grep -qi "Security+ Certified" README.md
           ! grep -qi "Certified PMP" README.md
           ! grep -qi "Aramco Employee" README.md
-          ! grep -qi "skill percentage" README.md
-          ! grep -E 'Cybersecurity:.*[0-9]{2}%' README.md
+          # Do not link ATS PDF until file exists
+          if grep -E '\[[^\]]*\]\([^)]*Muhanad-Ghurab-ATS-Resume\.pdf\)' README.md; then
+            test -f resume/Muhanad-Ghurab-ATS-Resume.pdf
+          fi
 
       - name: Local asset references exist
         run: |
@@ -132,8 +102,8 @@ jobs:
           import re
           from pathlib import Path
           readme = Path("README.md").read_text(encoding="utf-8")
-          refs = re.findall(r'\./assets/([A-Za-z0-9._-]+)', readme)
-          missing = [r for r in refs if not (Path("assets") / r).exists()]
+          refs = re.findall(r'\./(assets/[^)"\s]+)', readme)
+          missing = [r for r in refs if not Path(r).exists()]
           if missing:
               raise SystemExit(f"missing assets: {missing}")
           print("asset refs ok", refs)
