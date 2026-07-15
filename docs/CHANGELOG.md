@@ -2,6 +2,31 @@
 
 All notable changes to the Muhanad Ghurab profile repository and portfolio program documentation.
 
+## [2026-07-15] — MGH.GITHUB.PROFILE.3
+
+### Added
+
+- Reference study `docs/REFERENCE-STUDY-TROYMITCHELL911.md` and animation rebuild decision
+- Sentinel cyber-crow hero v2 (animated + static, 1600×500)
+- Original cyber-crow defensive operations illustration
+- Enlarged conceptual portfolio architecture panel
+- Telemetry panel limited to six primary tracks
+- Verified public GitHub evidence JSON + SVG (`workflow_dispatch` / local refresh)
+- Honest contribution flight-path placeholder (no fabricated cells)
+- PROFILE.3 asset generators and expanded profile tests
+
+### Changed
+
+- README information architecture: hero → identity → terminal → résumé → mission → modules
+- Grouped technology badges; primary/secondary project hierarchy
+- Validation workflow requires PROFILE.3 assets with `contents: read`
+
+### Notes
+
+- Legacy command-center SVGs retained but no longer primary README hero
+- Contribution calendar animation awaits owner-approved real-data refresh
+- ATS résumé files unchanged
+
 ## [2026-07-15] — MGH.RESUME.1
 
 ### Added

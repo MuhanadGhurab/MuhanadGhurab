@@ -39,12 +39,12 @@ Published tools include hash verifier, RBAC simulator, log summary, IOC extracto
 
 ## Phase 5 — Profile command center
 
-**Status:** MGH.GITHUB.PROFILE.2 — wide cyber-crow command center (active)
+**Status:** MGH.GITHUB.PROFILE.2 complete · **MGH.GITHUB.PROFILE.3** modular cyber-crow experience (hero v2 + panels) — active
 
-## Phase 6 — Homepage visual evidence and CV brand alignment
+## Phase 6 — Portfolio depth and interview evidence
 
-**Next:** MGH.GITHUB.PROFILE.3 — verified project cards, live evidence panels, recruiter journey optimization · and/or MGH.GITHUB.HOME.2 social preview / CV brand alignment
+**Next:** MGH.GITHUB.PROFILE.4 — portfolio depth, interview evidence, and project case-study expansion
 
 ## Progress governance
 
-Homepage project/learning percentages live in the README configuration comment. Security+ and PMP percentages change only with owner-provided updates.
+Homepage project/learning percentages live in `data/profile-status.json`. Security+ and PMP percentages change only with owner-provided updates. GitHub evidence refreshes via `scripts/update-github-evidence.py` (manual / workflow_dispatch only — no farming).

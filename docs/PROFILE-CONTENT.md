@@ -1,5 +1,21 @@
 # Profile Content — Locked Visible Wording
 
+## README section order (PROFILE.3)
+
+1. Animated cyber-crow hero
+2. Identity + contact actions
+3. Compact terminal
+4. ATS résumé
+5. Current mission / operations illustration
+6. Professional highlights
+7. Featured projects
+8. Portfolio architecture
+9. Technical capability badges
+10. Verified GitHub evidence
+11. Current development
+12. Cyber-crow contribution flight path
+13. Contact
+
 ## Identity
 
 Muhanad Ghurab

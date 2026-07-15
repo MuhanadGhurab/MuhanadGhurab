@@ -36,6 +36,15 @@ Profile READMEs cannot depend on execution environments beyond GitHub’s markdo
 
 Static hero + markdown text equivalents if animation fails or images fail.
 
+## PROFILE.3 animation strategy
+
+- Dual **CSS + SMIL** on the hero so Chromium `<img>` embedding has a motion path
+- Prefer transform/opacity over filters and blur
+- Crow and identity text sized for profile downscale
+- Architecture, telemetry, evidence, and contribution live in separate wide panels
+- Contribution calendar: real data only; otherwise honest “refresh pending” panel (no fake cells)
+
 ## External-widget policy
 
 Optional and secondary. Prefer local assets; never hard-code fake GitHub stats.
+Third-party stats cards are not required for PROFILE.3 — local evidence SVG from `data/github-evidence.json` is preferred.

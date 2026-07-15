@@ -24,18 +24,21 @@ IBM Plex Mono · JetBrains Mono · Consolas · Menlo · system monospace/sans. D
 
 ## Crow mark and hero
 
-- Primary command center: `assets/profile/cyber-crow-command-center.svg`
-- Static fallback required
+- Primary hero (PROFILE.3): `assets/profile/cyber-crow-hero-v2.svg`
+- Static fallback: `assets/profile/cyber-crow-hero-v2-static.svg` (`viewBox="0 0 1600 500"`)
+- Legacy command center retained: `assets/profile/cyber-crow-command-center.svg` (not primary README hero)
 - Compact mark: `assets/profile/crow-mark.svg` (+ light/dark variants)
-- Animation: SVG/CSS only, slow, reduced-motion safe
-- Hero canvas target: ~1800x640 viewBox, full-width in README
+- Animation: SVG CSS + SMIL, slow, reduced-motion safe via `<picture>` + media query
+- Hero focus: crow + identity + concise status only — secondary panels are separate assets
 
 ## Charts and diagrams
 
-- Telemetry from `data/profile-status.json` only
+- Telemetry from `data/profile-status.json` only (six primary tracks on landing)
 - Never skill percentages
-- Architecture diagrams labeled Conceptual Portfolio Architecture
+- Architecture: `conceptual-portfolio-architecture-v2.svg` labeled Conceptual Portfolio Architecture
+- GitHub evidence from `data/github-evidence.json` only (actual public data)
 - No employer/client network claims
+- Contribution flight: real calendar or honest pending — never fabricated cells
 
 ## Emoji rules (README only)
 

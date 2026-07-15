@@ -1,68 +1,52 @@
-# Hero Design Decision — MGH.GITHUB.PROFILE.2
+# Hero Design Decision — MGH.GITHUB.PROFILE.3
 
-## 1. Design objective
+## Design objective
 
-Create a wide GitHub-compatible cybersecurity command-center hero that communicates identity, role, conceptual architecture, and portfolio telemetry within 5–10 seconds.
+One memorable animated cyber-crow hero plus multiple large modular panels. No micro-dashboard cramming inside a single `1800×640` asset.
 
-## 2. Why the canvas is wide
+## PROFILE.2 lesson retained
 
-`viewBox="0 0 1800 640"` provides modular zones for crow, identity, architecture, mini telemetry, and navigation without crowding. GitHub still constrains page width; perceived width comes from full-bleed SVGs.
+Command-center branding and binary crow identity remain the brand core.
 
-## 3. Concepts explored
+## PROFILE.2 lesson rejected for the hero
 
-### A. Guardian Crow
-Crow protecting an enterprise core; strong symbolism; weaker telemetry density.
+Packing architecture, telemetry, navigation, and dense status into the same hero SVG. At GitHub profile scale those layers become visually quiet.
 
-### B. Binary Architect
-Crow assembled from code observing architecture; high originality; denser and harder on mobile.
+## Concepts explored (PROFILE.3)
 
-### C. Cyber Command Center
-Integrated crow + identity + orbit architecture + telemetry + bottom rail. Selected.
+1. **Sentinel Crow** — large crow left; identity right; thin status only
+2. **Binary Flight** — strong feather data-flow and particle drift
+3. **Enterprise Guardian** — crow with small protected-core symbol
 
-## 4. Selection criteria
+## Selected composition
 
-Professionalism · originality · mobile readability · GitHub compatibility · recruiter clarity · brand consistency · hierarchy · animation restraint · density · accessibility · file size · expandability
+**Sentinel Crow** with Binary Flight motion layers.
 
-## 5. Selected composition
+Primary assets:
 
-**C — Cyber Command Center**
+- `assets/profile/cyber-crow-hero-v2.svg` (`viewBox="0 0 1600 500"`)
+- `assets/profile/cyber-crow-hero-v2-static.svg`
 
-## 6. Rejected concepts
+Crow target share: ~35–45% of hero width. Float amplitude: ~12 SVG units.
 
-A and B retained as documented ideas only (not committed as alternate large assets).
+## Modular panels extracted from the old command center
 
-## 7. Cyber-crow design logic
+| Panel | Asset |
+|-------|-------|
+| Operations illustration | `cyber-crow-operations.svg` |
+| Architecture | `conceptual-portfolio-architecture-v2.svg` |
+| Telemetry (top 6 tracks) | `portfolio-telemetry-v2.svg` |
+| GitHub evidence | `assets/generated/github-evidence.svg` |
+| Contribution flight | `assets/generated/cyber-crow-contribution-flight.svg` (honest pending until real calendar pull) |
 
-Geometric planes, wing traces, cyan eye, binary digits in feathers, circuit edges — original construction, not a commercial logo.
+## Legacy assets
 
-## 8. Binary animation logic
+`cyber-crow-command-center.svg` and related PROFILE.2 panels retained for history/tests; README no longer embeds the overcrowded hero as the primary experience.
 
-Slow stream + scan + pulse + outline trace; reduced-motion disables continuous motion.
+## Reduced motion
 
-## 9. Pseudo-3D architecture logic
+`<picture>` prefers static hero when `prefers-reduced-motion: reduce`. Animated SVG also disables CSS keyframes under the same media query; SMIL may still be limited by the UA — static fallback remains the guaranteed quiet path.
 
-Isometric hex/cube core with six capability nodes; labeled **Conceptual Portfolio Architecture**.
+## Performance
 
-## 10. Chart logic
-
-Horizontal maturity bars from `data/profile-status.json` — project/learning only.
-
-## 11. Mobile strategy
-
-Large type, concise labels, secondary detail in Markdown below.
-
-## 12. Reduced-motion strategy
-
-`prefers-reduced-motion` CSS + static README fallback image.
-
-## 13. GitHub limitations
-
-No WebGL/JS/iframe; SVG/CSS + Markdown only.
-
-## 14. Performance decisions
-
-Hero ~9 KB animated / ~8 KB static — far below 500 KB target.
-
-## 15. Future expansion zones
-
-Bottom rail slots, telemetry tracks, secondary orbit nodes (Cloud/Network/Data) without redesigning hierarchy.
+Hero targets: animated &lt; 350 KB, static &lt; 250 KB (current generated assets are well under).
