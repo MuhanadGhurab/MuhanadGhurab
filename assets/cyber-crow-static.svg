@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Muhanad Ghurab  Cybersecurity, Infrastructure, Enterprise Technology (static)</title>
+  <desc id="desc">Static cyber crow identity mark with binary accents, network nodes, and professional name treatment. No animation required.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1224"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.35"/>
+    </linearGradient>
+    <style><![CDATA[
+      .bin { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 11px; fill: #22D3EE; opacity: 0.28; }
+      .bin-alt { fill: #2563EB; opacity: 0.22; }
+      .name { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 42px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.08em; }
+      .sub { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 16px; fill: #CBD5E1; letter-spacing: 0.12em; }
+      .tag { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 13px; fill: #94A3B8; }
+      .term { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 12px; fill: #22D3EE; }
+      .outline { fill: none; stroke: url(#glow); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+      .wing { fill: none; stroke: #2563EB; stroke-width: 1.4; opacity: 0.75; }
+      .wire { stroke: #475569; stroke-width: 1; fill: none; opacity: 0.55; }
+    ]]></style>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)" stroke="#1E293B"/>
+  <text class="bin" x="40" y="48">01001101 01010101 01001000 01000001 01001110 01000001 01000100</text>
+  <text class="bin bin-alt" x="70" y="68">11001010 00101101 10010110 01011100 10100111 00110001</text>
+  <text class="bin" x="50" y="88">10110101 01001001 01001110 01000110 01010010 01000001</text>
+  <path class="wire" d="M70 190 L160 140 L250 175 L340 120 L430 165"/>
+  <path class="wire" d="M120 250 L210 210 L300 240 L390 200 L480 230"/>
+  <circle cx="160" cy="140" r="4" fill="#22D3EE"/>
+  <circle cx="250" cy="175" r="3.5" fill="#2563EB"/>
+  <circle cx="340" cy="120" r="4" fill="#22D3EE"/>
+  <g transform="translate(150,70)">
+    <path class="outline" d="M40 150 C35 110, 55 70, 105 55 C145 45, 185 55, 210 85 C235 115, 240 150, 225 180 C210 210, 170 225, 130 220 C95 215, 55 195, 40 150 Z"/>
+    <path class="outline" d="M210 110 L290 125 L215 145 Z"/>
+    <path class="wing" d="M95 70 L110 30 L130 68"/>
+    <path class="wing" d="M120 55 L145 18 L160 60"/>
+    <path class="wing" d="M70 145 L145 165 L70 185"/>
+    <circle cx="165" cy="115" r="7" fill="#22D3EE"/>
+    <circle cx="165" cy="115" r="2.5" fill="#020617"/>
+  </g>
+  <text class="name" x="560" y="145">MUHANAD GHURAB</text>
+  <text class="sub" x="560" y="180">CYBERSECURITY · INFRASTRUCTURE · ENTERPRISE TECHNOLOGY</text>
+  <text class="tag" x="560" y="215">Securing Enterprise Systems. Building Resilient Infrastructure.</text>
+  <text class="tag" x="560" y="235">Engineering Trusted Digital Operations.</text>
+  <rect x="560" y="268" width="560" height="44" rx="8" fill="#020617" stroke="#1E293B"/>
+  <text class="term" x="578" y="295">status: portfolio foundation · security+ : in progress · pmp : in progress</text>
+</svg>

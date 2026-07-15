@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280" role="img" aria-labelledby="t d">
+  <title id="t">Learning and project progress</title>
+  <desc id="d">Progress bars for portfolio and learning milestones. Values are project completion, not skill ratings.</desc>
+  <style>
+    .label { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #CBD5E1; }
+    .pct { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #22D3EE; }
+    .track { fill: #1E293B; }
+    .bar { fill: #2563EB; }
+    .bar2 { fill: #22D3EE; }
+  </style>
+  <rect width="720" height="280" rx="12" fill="#020617" stroke="#1E293B"/>
+  <text class="label" x="24" y="36">Portfolio &amp; learning progress (not skill ratings)</text>
+
+  <text class="label" x="24" y="70">GitHub Portfolio Foundation</text>
+  <text class="pct" x="660" y="70">35%</text>
+  <rect class="track" x="24" y="78" width="672" height="8" rx="4"/>
+  <rect class="bar" x="24" y="78" width="235" height="8" rx="4"/>
+
+  <text class="label" x="24" y="110">Enterprise Cybersecurity Lab Docs</text>
+  <text class="pct" x="660" y="110">45%</text>
+  <rect class="track" x="24" y="118" width="672" height="8" rx="4"/>
+  <rect class="bar2" x="24" y="118" width="302" height="8" rx="4"/>
+
+  <text class="label" x="24" y="150">CompTIA Security+ Learning Path</text>
+  <text class="pct" x="660" y="150">30%</text>
+  <rect class="track" x="24" y="158" width="672" height="8" rx="4"/>
+  <rect class="bar" x="24" y="158" width="202" height="8" rx="4"/>
+
+  <text class="label" x="24" y="190">PMP Learning Path</text>
+  <text class="pct" x="660" y="190">20%</text>
+  <rect class="track" x="24" y="198" width="672" height="8" rx="4"/>
+  <rect class="bar" x="24" y="198" width="134" height="8" rx="4"/>
+
+  <text class="label" x="24" y="230">Crow Ecosystem Documentation</text>
+  <text class="pct" x="660" y="230">70%</text>
+  <rect class="track" x="24" y="238" width="672" height="8" rx="4"/>
+  <rect class="bar2" x="24" y="238" width="470" height="8" rx="4"/>
+
+  <text class="label" x="24" y="262" fill="#475569">Updated manually after verified milestones</text>
+</svg>

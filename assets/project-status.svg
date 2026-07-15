@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="t d">
+  <title id="t">Project program progress</title>
+  <desc id="d">Progress panel for Python, Java, drone, robotics, and game portfolio programs.</desc>
+  <style>
+    .label { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #CBD5E1; }
+    .pct { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #22D3EE; }
+    .track { fill: #1E293B; }
+    .bar { fill: #2563EB; }
+  </style>
+  <rect width="720" height="220" rx="12" fill="#020617" stroke="#1E293B"/>
+  <text class="label" x="24" y="32">Program progress (project completion only)</text>
+
+  <text class="label" x="24" y="62">Python Portfolio Program</text><text class="pct" x="660" y="62">15%</text>
+  <rect class="track" x="24" y="70" width="672" height="8" rx="4"/><rect class="bar" x="24" y="70" width="101" height="8" rx="4"/>
+
+  <text class="label" x="24" y="98">Java Portfolio Program</text><text class="pct" x="660" y="98">10%</text>
+  <rect class="track" x="24" y="106" width="672" height="8" rx="4"/><rect class="bar" x="24" y="106" width="67" height="8" rx="4"/>
+
+  <text class="label" x="24" y="134">Drone Security Documentation</text><text class="pct" x="660" y="134">25%</text>
+  <rect class="track" x="24" y="142" width="672" height="8" rx="4"/><rect class="bar" x="24" y="142" width="168" height="8" rx="4"/>
+
+  <text class="label" x="24" y="170">Robotics Security Documentation</text><text class="pct" x="660" y="170">20%</text>
+  <rect class="track" x="24" y="178" width="672" height="8" rx="4"/><rect class="bar" x="24" y="178" width="134" height="8" rx="4"/>
+
+  <text class="label" x="24" y="206">Game Development Portfolio</text><text class="pct" x="660" y="206">30%</text>
+  <rect class="track" x="24" y="214" width="672" height="8" rx="4"/><rect class="bar" x="24" y="214" width="202" height="8" rx="4"/>
+</svg>

@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Muhanad Ghurab  Cybersecurity, Infrastructure, Enterprise Technology</title>
+  <desc id="desc">Original animated cyber crow composed of binary digits, network nodes, and a controlled scan line on a deep navy field. Static identity remains readable without animation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="55%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1224"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="18"/>
+    </clipPath>
+    <style><![CDATA[
+      .bin { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 11px; fill: #22D3EE; opacity: 0.28; }
+      .bin-alt { fill: #2563EB; opacity: 0.22; }
+      .name { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 42px; font-weight: 700; fill: #FFFFFF; letter-spacing: 0.08em; }
+      .sub { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 16px; fill: #CBD5E1; letter-spacing: 0.12em; }
+      .tag { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 13px; fill: #94A3B8; }
+      .term { font-family: "IBM Plex Mono", "JetBrains Mono", Consolas, ui-monospace, monospace; font-size: 12px; fill: #22D3EE; }
+      .outline { fill: none; stroke: url(#glow); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+      .wing { fill: none; stroke: #2563EB; stroke-width: 1.4; opacity: 0.75; }
+      .wire { stroke: #475569; stroke-width: 1; fill: none; opacity: 0.55; }
+      .scan { fill: #22D3EE; opacity: 0.12; }
+      @media (prefers-reduced-motion: no-preference) {
+        .scan { animation: scan 7s linear infinite; }
+        .pulse { animation: pulse 3.2s ease-in-out infinite; }
+        .stream { animation: stream 9s linear infinite; }
+        .cursor { animation: blink 1.2s steps(1) infinite; }
+        .node-a { animation: node 4s ease-in-out infinite; }
+        .node-b { animation: node 4s ease-in-out 1.2s infinite; }
+        .node-c { animation: node 4s ease-in-out 2.1s infinite; }
+        .trace { stroke-dasharray: 420; stroke-dashoffset: 420; animation: trace 8s ease-in-out infinite; }
+      }
+      @keyframes scan { 0% { transform: translateY(-40px); opacity: 0; } 10% { opacity: 0.14; } 90% { opacity: 0.14; } 100% { transform: translateY(280px); opacity: 0; } }
+      @keyframes pulse { 0%, 100% { opacity: 0.55; } 50% { opacity: 1; } }
+      @keyframes stream { 0% { transform: translateX(0); } 100% { transform: translateX(-80px); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+      @keyframes node { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+      @keyframes trace { 0%, 15% { stroke-dashoffset: 420; } 45%, 70% { stroke-dashoffset: 0; } 100% { stroke-dashoffset: -420; } }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="360" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+    <!-- Binary field -->
+    <g class="stream" aria-hidden="true">
+      <text class="bin" x="40" y="48">01001101 01010101 01001000 01000001 01001110 01000001 01000100</text>
+      <text class="bin bin-alt" x="70" y="68">11001010 00101101 10010110 01011100 10100111 00110001</text>
+      <text class="bin" x="50" y="88">10110101 01001001 01001110 01000110 01010010 01000001</text>
+      <text class="bin bin-alt" x="90" y="108">00101110 11010010 01001110 01000101 01010100</text>
+      <text class="bin" x="60" y="300">01010011 01000101 01000011 01010101 01010010 01000101</text>
+      <text class="bin bin-alt" x="100" y="320">01010010 01000101 01010011 01001001 01001100 01001001 01000101 01001110 01010100</text>
+    </g>
+
+    <!-- Network lattice behind crow -->
+    <g aria-hidden="true">
+      <path class="wire" d="M70 190 L160 140 L250 175 L340 120 L430 165"/>
+      <path class="wire" d="M120 250 L210 210 L300 240 L390 200 L480 230"/>
+      <circle class="node-a" cx="160" cy="140" r="4" fill="#22D3EE"/>
+      <circle class="node-b" cx="250" cy="175" r="3.5" fill="#2563EB"/>
+      <circle class="node-c" cx="340" cy="120" r="4" fill="#22D3EE"/>
+      <circle class="node-a" cx="210" cy="210" r="3" fill="#2563EB"/>
+      <circle class="node-b" cx="390" cy="200" r="3.5" fill="#22D3EE"/>
+      <circle cx="160" cy="140" r="10" fill="url(#nodeGlow)"/>
+      <circle cx="340" cy="120" r="10" fill="url(#nodeGlow)"/>
+    </g>
+
+    <!-- Geometric cyber crow (head + beak + crest) -->
+    <g transform="translate(150,70)">
+      <path class="outline trace" d="M40 150
+        C35 110, 55 70, 105 55
+        C145 45, 185 55, 210 85
+        C235 115, 240 150, 225 180
+        C210 210, 170 225, 130 220
+        C95 215, 55 195, 40 150 Z"/>
+      <!-- beak -->
+      <path class="outline" d="M210 110 L290 125 L215 145 Z"/>
+      <!-- crest -->
+      <path class="wing" d="M95 70 L110 30 L130 68"/>
+      <path class="wing" d="M120 55 L145 18 L160 60"/>
+      <!-- wing geometric hatch -->
+      <path class="wing" d="M70 145 L145 165 L70 185"/>
+      <path class="wing" d="M85 135 L160 155 L90 175"/>
+      <!-- eye -->
+      <circle class="pulse" cx="165" cy="115" r="7" fill="#22D3EE"/>
+      <circle cx="165" cy="115" r="2.5" fill="#020617"/>
+      <!-- binary feathers -->
+      <text class="bin" x="55" y="155">01</text>
+      <text class="bin" x="95" y="175">10</text>
+      <text class="bin" x="125" y="195">11</text>
+    </g>
+
+    <!-- Scan line -->
+    <rect class="scan" x="0" y="40" width="520" height="2"/>
+
+    <!-- Identity text -->
+    <text class="name" x="560" y="145">MUHANAD GHURAB</text>
+    <text class="sub" x="560" y="180">CYBERSECURITY · INFRASTRUCTURE · ENTERPRISE TECHNOLOGY</text>
+    <text class="tag" x="560" y="215">Securing Enterprise Systems. Building Resilient Infrastructure.</text>
+    <text class="tag" x="560" y="235">Engineering Trusted Digital Operations.</text>
+
+    <!-- Terminal status strip -->
+    <rect x="560" y="268" width="560" height="44" rx="8" fill="#020617" stroke="#1E293B"/>
+    <text class="term" x="578" y="295">status: portfolio foundation · security+ : in progress · pmp : in progress</text>
+    <rect class="cursor" x="1085" y="282" width="8" height="16" fill="#22D3EE"/>
+  </g>
+</svg>

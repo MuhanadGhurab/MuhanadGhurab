@@ -1,0 +1,116 @@
+name: Validate profile
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Required files exist
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f LICENSE
+          test -f assets/cyber-crow-header.svg
+          test -f assets/cyber-crow-static.svg
+          test -f assets/binary-divider.svg
+          test -f assets/terminal-status.svg
+          test -f assets/learning-progress.svg
+          test -f assets/project-status.svg
+          test -f docs/PROFILE-CONTENT.md
+          test -f docs/PORTFOLIO-ROADMAP.md
+          test -f docs/PROJECT-INVENTORY.md
+          test -f docs/BRAND-GUIDE.md
+          test -f docs/PRIVACY-BOUNDARIES.md
+          test -f docs/CHANGELOG.md
+
+      - name: Validate SVG XML
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+          for path in Path("assets").glob("*.svg"):
+              ET.parse(path)
+              text = path.read_text(encoding="utf-8")
+              assert "<script" not in text.lower(), path
+              print(f"OK {path}")
+          PY
+
+      - name: Check asset sizes
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          limits = {
+              "cyber-crow-header.svg": 200_000,
+              "cyber-crow-static.svg": 100_000,
+              "social-preview.png": 2_500_000,
+          }
+          for name, limit in limits.items():
+              p = Path("assets") / name
+              if not p.exists():
+                  if name == "social-preview.png":
+                      print("WARN missing social-preview.png")
+                      continue
+                  raise SystemExit(f"missing {name}")
+              size = p.stat().st_size
+              print(f"{name}: {size} bytes")
+              if size > limit:
+                  raise SystemExit(f"{name} exceeds {limit} bytes")
+          PY
+
+      - name: Scan for obvious secrets
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          patterns = [
+              re.compile(r"AKIA[0-9A-Z]{16}"),
+              re.compile(r"ghp_[A-Za-z0-9]{20,}"),
+              re.compile(r"gho_[A-Za-z0-9]{20,}"),
+              re.compile(r"xox[baprs]-[A-Za-z0-9-]{10,}"),
+              re.compile(r"BEGIN (RSA|OPENSSH|EC) PRIVATE KEY"),
+              re.compile(r"postgres(ql)?://[^\s]+:[^\s]+@"),
+          ]
+          skip = {".png", ".jpg", ".jpeg", ".gif", ".webp"}
+          hits = []
+          for path in Path(".").rglob("*"):
+              if not path.is_file() or path.suffix.lower() in skip:
+                  continue
+              if ".git" in path.parts:
+                  continue
+              try:
+                  text = path.read_text(encoding="utf-8", errors="ignore")
+              except OSError:
+                  continue
+              for pat in patterns:
+                  if pat.search(text):
+                      hits.append(f"{path}: matched {pat.pattern}")
+          if hits:
+              print("\n".join(hits))
+              raise SystemExit(1)
+          print("secret pattern scan clean")
+          PY
+
+      - name: README identity checks
+        run: |
+          set -euo pipefail
+          grep -q "Muhanad Ghurab" README.md
+          grep -q "IT Specialist — Tekfen Construction" README.md
+          grep -q "In Progress" README.md
+          grep -q "cyber-crow-header.svg" README.md
+          ! grep -qi "Security+ Certified" README.md
+          ! grep -qi "Certified PMP" README.md
+          ! grep -qi "Aramco Employee" README.md
