@@ -2,19 +2,19 @@
 
 ## Identity
 
-Muhanad Ghurab  
-Cybersecurity • Infrastructure • Enterprise Technology  
+Muhanad Ghurab
+Cybersecurity • Infrastructure • Enterprise Technology
 Cybersecurity & IT Infrastructure Specialist
 
 ## Supporting statement
 
-Securing Enterprise Systems.  
-Building Resilient Infrastructure.  
+Securing Enterprise Systems.
+Building Resilient Infrastructure.
 Engineering Trusted Digital Operations.
 
 ## Role
 
-IT Specialist — Tekfen Construction  
+IT Specialist — Tekfen Construction
 Jeddah, Saudi Arabia
 
 ## Environment
@@ -27,12 +27,12 @@ Bachelor’s degree in Computer Science / IT, specializing in Cybersecurity.
 
 ## Learning
 
-CompTIA Security+ — In Progress  
+CompTIA Security+ — In Progress
 PMP — In Progress
 
 ## Achievement
 
-Second Place — University Graduation Project (SecureSkies)  
+Second Place — University Graduation Project (SecureSkies)
 Owner-verified; supporting artifact pending.
 
 ## SecureSkies
@@ -41,6 +41,6 @@ Partially integrated academic prototype; full autonomous deployment not complete
 
 ## Contact
 
-GitHub: https://github.com/MuhanadGhurab  
-LinkedIn: https://www.linkedin.com/in/muhanad-ghurab-141btb414  
+GitHub: https://github.com/MuhanadGhurab
+LinkedIn: https://www.linkedin.com/in/muhanad-ghurab-141btb414
 Email: muhanadghurab@gmail.com

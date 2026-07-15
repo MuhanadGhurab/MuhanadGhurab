@@ -151,7 +151,7 @@ This diagram is a **conceptual map of the public portfolio domains**. It is not 
   <img src="./assets/profile/portfolio-telemetry.svg" width="100%" alt="Portfolio telemetry chart showing project and learning progress values from profile-status.json" />
 </p>
 
-**Project and learning progress — not competency ratings.**  
+**Project and learning progress — not competency ratings.**
 Source: [`data/profile-status.json`](data/profile-status.json)
 
 <p align="center">
