@@ -16,8 +16,8 @@
   <text class="label" x="24" y="98">Java Portfolio Program</text><text class="pct" x="660" y="98">10%</text>
   <rect class="track" x="24" y="106" width="672" height="8" rx="4"/><rect class="bar" x="24" y="106" width="67" height="8" rx="4"/>
 
-  <text class="label" x="24" y="134">Drone Security Documentation</text><text class="pct" x="660" y="134">25%</text>
-  <rect class="track" x="24" y="142" width="672" height="8" rx="4"/><rect class="bar" x="24" y="142" width="168" height="8" rx="4"/>
+  <text class="label" x="24" y="134">Drone Security Documentation</text><text class="pct" x="660" y="134">75%</text>
+  <rect class="track" x="24" y="142" width="672" height="8" rx="4"/><rect class="bar" x="24" y="142" width="504" height="8" rx="4"/>
 
   <text class="label" x="24" y="170">Robotics Security Documentation</text><text class="pct" x="660" y="170">20%</text>
   <rect class="track" x="24" y="178" width="672" height="8" rx="4"/><rect class="bar" x="24" y="178" width="134" height="8" rx="4"/>

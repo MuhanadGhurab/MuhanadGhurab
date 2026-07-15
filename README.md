@@ -56,7 +56,10 @@ Security Toolset Program:
 60%
 
 Drone Security Documentation:
-25%
+75%
+
+SecureSkies Digital Twin:
+0%
 
 Robotics Security Documentation:
 20%
@@ -133,7 +136,7 @@ Outside production work, he develops home-lab security environments, builds defe
 - Enterprise and industrial IT exposure
 - Saudi Aramco project-environment exposure (environment association — not direct Aramco employment)
 - Bachelor’s specialization in Cybersecurity
-- **Second Place — University Graduation Project** (SecSky drone security)
+- **Second Place — University Graduation Project** (SecureSkies) — Owner-verified; supporting artifact pending.
 - Enterprise Cybersecurity Lab (evidence framework + interview walkthrough; screenshots pending capture)
 - Defensive security toolset (IOC extractor, evidence manifest builder, Windows event triage helper)
 - Crow Ecosystem Platform (public product/engineering portfolio)
@@ -166,7 +169,8 @@ Update manually after completing verified milestones.
 | Python Portfolio Program | 55% |
 | Security Toolset Program | 60% |
 | Java Portfolio Program | 10% |
-| Drone Security Documentation | 25% |
+| Drone Security Documentation | 75% |
+| SecureSkies Digital Twin | 0% (Planned) |
 | Robotics Security Documentation | 20% |
 | Game Development Portfolio | 30% |
 
@@ -177,7 +181,7 @@ Update manually after completing verified milestones.
 | 1 | Crow Ecosystem Platform | [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform) | Active Development — public platform codebase |
 | 2 | Enterprise Cybersecurity Lab | [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab) | Active Documentation — [evidence framework](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/evidence) · [interview walkthrough](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/blob/main/docs/INTERVIEW-WALKTHROUGH.md) |
 | 3 | Small IT & Cyber Projects | [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) | Active Development — [event triage](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/windows_event_triage_helper) · [IOC extractor](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/ioc_text_extractor) · [evidence manifest](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/evidence_manifest_builder) |
-| 4 | SecSky Drone Security | Planned public documentation | Planning |
+| 4 | SecureSkies — Drone Security Research and Academic Prototype | [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security) | Historical documentation published — partially integrated prototype; full autonomous deployment not completed · Second Place (owner-verified; artifact pending) |
 | 5 | Smart Methods Robotics Notes | Planned documentation | Planning |
 | 6 | Security Automation Toolkit | Planned | Planning |
 | 7 | Python Engineering Program | Started inside mini-it-cyber-projects | Scaffolded |
@@ -232,6 +236,7 @@ Public activity reflects real commits and real repositories only. No fabricated 
 - Primary public platform repository: [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform)
 - Lab evidence: [enterprise-cybersecurity-lab docs](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/docs) · [evidence/](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/evidence)
 - Defensive tools: [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) · [tool interview notes](https://github.com/MuhanadGhurab/mini-it-cyber-projects/blob/main/docs/INTERVIEW-WALKTHROUGH.md)
+- SecureSkies historical portfolio: [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security)
 
 ## Contact
 
