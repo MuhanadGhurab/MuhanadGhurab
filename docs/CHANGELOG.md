@@ -15,7 +15,12 @@ All notable changes to the Muhanad Ghurab profile repository and portfolio progr
 - Profile validation GitHub Actions workflow
 - MIT license for original profile assets/docs
 
+### Fixed
+
+- SVG XML sanitization for Actions validation (`56bd6e4`)
+
 ### Notes
 
 - Progress dashboard values are provisional project/learning completion percentages only
 - SecSky, robotics, desktop app public documentation deferred pending ownership/evidence review
+- Companion public repos created: `enterprise-cybersecurity-lab`, `mini-it-cyber-projects`

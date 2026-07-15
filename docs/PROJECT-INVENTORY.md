@@ -13,9 +13,16 @@
 
 ## Profile repository
 
-| Repository | Visibility | Status |
-|------------|------------|--------|
-| MuhanadGhurab | Was missing → created this milestone | Public profile home |
+| Repository | Visibility | Status | HEAD |
+|------------|------------|--------|------|
+| MuhanadGhurab | Public | Created this milestone | `56bd6e4` |
+
+## Repositories created this milestone
+
+| Repository | Visibility | Status | HEAD |
+|------------|------------|--------|------|
+| enterprise-cybersecurity-lab | Public | Scaffolded docs | `fe2b5b3` |
+| mini-it-cyber-projects | Public | Active Development (3 tools) | `b38f3d5` |
 
 ## Proposed portfolio repositories
 
