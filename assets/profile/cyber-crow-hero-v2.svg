@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 500" role="img" aria-labelledby="title desc">
+  <title id="title">Muhanad Ghurab animated cyber-crow hero</title>
+  <desc id="desc">Sentinel composition: large geometric binary cyber crow on the left with identity text on the right. Controlled float, binary streams, eye pulse, circuit trace, and scan line. Original cyber-crow brand art.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/><stop offset="45%" stop-color="#0B1630"/><stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563EB"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#13233F"/><stop offset="100%" stop-color="#07101F"/>
+    </linearGradient>
+    <style><![CDATA[
+      .name{font-family:IBM Plex Mono,Consolas,monospace;font-size:52px;font-weight:700;fill:#FFFFFF;letter-spacing:.08em}
+      .sub{font-family:IBM Plex Mono,Consolas,monospace;font-size:17px;fill:#22D3EE;letter-spacing:.1em}
+      .tag{font-family:IBM Plex Mono,Consolas,monospace;font-size:16px;fill:#CBD5E1}
+      .mini{font-family:IBM Plex Mono,Consolas,monospace;font-size:13px;fill:#94A3B8}
+      .bin{font-family:IBM Plex Mono,Consolas,monospace;font-size:15px;fill:#22D3EE;opacity:.4}
+      .grid{stroke:#1E293B;stroke-width:1;opacity:.45}
+      .outline{fill:url(#fill);stroke:url(#glow);stroke-width:3.4;stroke-linejoin:round}
+      .wing{fill:none;stroke:#38BDF8;stroke-width:2.2;opacity:.95}
+      .plate{fill:#0B1224;stroke:#2563EB;stroke-width:1.6}
+      .scan{fill:#22D3EE;opacity:.08}
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .float { animation: float 7.5s ease-in-out infinite; }
+        .pulse { animation: pulse 4s ease-in-out infinite; }
+        .scan { animation: scan 13s linear infinite; }
+        .stream { animation: stream 10s linear infinite; }
+        .node { animation: node 4.5s ease-in-out infinite; }
+        .trace { stroke-dasharray: 320; animation: draw 11s ease-in-out infinite; }
+        .particle { animation: drift 8s ease-out infinite; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .float,.pulse,.scan,.stream,.node,.trace,.particle { animation: none !important; }
+      }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+      @keyframes pulse { 0%,100%{opacity:.7} 50%{opacity:1} }
+      @keyframes scan { 0%{transform:translateY(-30px)} 100%{transform:translateY(480px)} }
+      @keyframes stream { 0%{transform:translateX(0)} 100%{transform:translateX(-80px)} }
+      @keyframes node { 0%,100%{opacity:.35} 50%{opacity:1} }
+      @keyframes draw { 0%,100%{stroke-dashoffset:320} 50%{stroke-dashoffset:0} }
+      @keyframes drift { 0%{opacity:.55;transform:translate(0,0)} 100%{opacity:0;transform:translate(55px,-40px)} }
+
+    ]]></style>
+  </defs>
+  <rect width="1600" height="500" fill="url(#bg)"/>
+  <g class="grid">
+    <path d="M40 80 H700 M40 140 H680 M40 200 H660 M40 260 H640 M40 320 H620 M40 380 H600"/>
+    <path d="M120 40 V460 M200 40 V460 M280 40 V460 M360 40 V460 M440 40 V460"/>
+  </g>
+  <g class="stream"><animateTransform attributeName="transform" type="translate" values="0 0; -80 0" dur="10s" repeatCount="indefinite"/>
+    <text class="bin" x="36" y="36">01001101 01010101 01001000 01000001 01001110 01000001 01000100</text>
+    <text class="bin" x="60" y="58">11001001 10100101 01101100 01010011 01000101 01000011</text>
+  </g>
+  <rect class="scan" x="0" y="0" width="1600" height="26"><animateTransform attributeName="transform" type="translate" values="0 -30; 0 480" dur="13s" repeatCount="indefinite"/></rect>
+  <!-- crow ~40% width; nested g keeps base translate while SMIL floats -->
+  <g transform="translate(330,275)">
+    <g class="float"><animateTransform attributeName="transform" type="translate" values="0 0; 0 -12; 0 0" dur="7.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      <ellipse class="pulse" cx="30" cy="-55" rx="78" ry="48" fill="#22D3EE" opacity="0.18"><animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/></ellipse>
+      <path class="outline" d="M-230,95 C-175,15 -85,-125 55,-165 C140,-182 225,-130 255,-48 C278,12 240,85 160,122 C70,168 -105,175 -230,95 Z"/>
+      <path class="plate" d="M-150,5 L-60,-55 L10,-35 L-40,45 Z"/>
+      <path class="plate" d="M-90,45 L0,-5 L70,25 L-10,85 Z"/>
+      <path class="plate" d="M-40,85 L50,40 L110,75 L20,120 Z"/>
+      <path class="wing trace" d="M-160,5 C-40,-85 100,-75 205,20"/>
+      <path class="wing" d="M-135,40 C-20,-15 105,5 210,65"/>
+      <path class="wing" d="M-115,78 C-15,35 95,55 195,110"/>
+      <path class="outline" d="M255,-48 L345,-12 L260,22 Z" fill="#0B1224"/>
+      <circle class="pulse" cx="62" cy="-92" r="11" fill="#22D3EE"><animate attributeName="opacity" values="0.7;1;0.7" dur="4s" repeatCount="indefinite"/></circle>
+      <text class="bin" x="-120" y="-15">01</text>
+      <text class="bin" x="-55" y="30">10</text>
+      <text class="bin" x="15" y="62">01</text>
+      <text class="bin" x="85" y="22">11</text>
+      <text class="bin" x="40" y="95">00</text>
+      <circle class="node" cx="-185" cy="45" r="7" fill="#22D3EE"/>
+      <circle class="node" cx="-105" cy="-45" r="7" fill="#22D3EE"/>
+      <circle class="node" cx="-10" cy="-100" r="7" fill="#22D3EE"/>
+      <circle class="node" cx="130" cy="-35" r="7" fill="#22D3EE"/>
+      <circle class="node" cx="185" cy="55" r="7" fill="#22D3EE"/>
+      <circle class="node" cx="90" cy="95" r="6" fill="#38BDF8"/>
+      <circle class="particle" cx="180" cy="-20" r="3.2" fill="#22D3EE" opacity="0.45"><animate attributeName="opacity" values="0.55;0;0.55" dur="8s" begin="0s" repeatCount="indefinite"/></circle><circle class="particle" cx="200" cy="10" r="3.2" fill="#22D3EE" opacity="0.45"><animate attributeName="opacity" values="0.55;0;0.55" dur="8s" begin="1.2s" repeatCount="indefinite"/></circle><circle class="particle" cx="160" cy="40" r="3.2" fill="#22D3EE" opacity="0.45"><animate attributeName="opacity" values="0.55;0;0.55" dur="8s" begin="2.4s" repeatCount="indefinite"/></circle><circle class="particle" cx="220" cy="-5" r="3.2" fill="#22D3EE" opacity="0.45"><animate attributeName="opacity" values="0.55;0;0.55" dur="8s" begin="3.1s" repeatCount="indefinite"/></circle><circle class="particle" cx="150" cy="70" r="3.2" fill="#22D3EE" opacity="0.45"><animate attributeName="opacity" values="0.55;0;0.55" dur="8s" begin="4s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <text class="name" x="720" y="165">MUHANAD GHURAB</text>
+  <text class="sub" x="720" y="205">CYBERSECURITY  ·  INFRASTRUCTURE  ·  ENTERPRISE TECHNOLOGY</text>
+  <text class="tag" x="720" y="255">Securing Enterprise Systems.</text>
+  <text class="tag" x="720" y="285">Building Resilient Infrastructure.</text>
+  <text class="tag" x="720" y="315">Engineering Trusted Digital Operations.</text>
+  <rect x="720" y="345" width="220" height="28" rx="6" fill="#0F172A" stroke="#22D3EE" stroke-width="1.5"/>
+  <text class="mini" x="734" y="364" fill="#22D3EE">CROW NODE // ONLINE</text>
+  <text class="mini" x="720" y="405">JEDDAH, SAUDI ARABIA</text>
+  <text class="mini" x="720" y="430">IT SPECIALIST // TEKFEN CONSTRUCTION</text>
+</svg>
