@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Muhanad Ghurab  Cybersecurity, Infrastructure, Enterprise Technology (static)</title>
+  <title id="title">Muhanad Ghurab - Cybersecurity, Infrastructure, Enterprise Technology (static)</title>
   <desc id="desc">Static cyber crow identity mark with binary accents, network nodes, and professional name treatment. No animation required.</desc>
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -42,9 +42,9 @@
     <circle cx="165" cy="115" r="2.5" fill="#020617"/>
   </g>
   <text class="name" x="560" y="145">MUHANAD GHURAB</text>
-  <text class="sub" x="560" y="180">CYBERSECURITY · INFRASTRUCTURE · ENTERPRISE TECHNOLOGY</text>
+  <text class="sub" x="560" y="180">CYBERSECURITY ï¿½ INFRASTRUCTURE ï¿½ ENTERPRISE TECHNOLOGY</text>
   <text class="tag" x="560" y="215">Securing Enterprise Systems. Building Resilient Infrastructure.</text>
   <text class="tag" x="560" y="235">Engineering Trusted Digital Operations.</text>
   <rect x="560" y="268" width="560" height="44" rx="8" fill="#020617" stroke="#1E293B"/>
-  <text class="term" x="578" y="295">status: portfolio foundation · security+ : in progress · pmp : in progress</text>
+  <text class="term" x="578" y="295">status: portfolio foundation ï¿½ security+ : in progress ï¿½ pmp : in progress</text>
 </svg>

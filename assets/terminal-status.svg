@@ -6,13 +6,13 @@
   <circle cx="18" cy="14" r="5" fill="#F59E0B" opacity="0.7"/>
   <circle cx="36" cy="14" r="5" fill="#22D3EE" opacity="0.7"/>
   <circle cx="54" cy="14" r="5" fill="#2563EB" opacity="0.7"/>
-  <text x="76" y="18" font-family="IBM Plex Mono, Consolas, monospace" font-size="11" fill="#CBD5E1">mgh@portfolio  status</text>
+  <text x="76" y="18" font-family="IBM Plex Mono, Consolas, monospace" font-size="11" fill="#CBD5E1">mgh@portfolio - status</text>
   <text x="20" y="56" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#22D3EE">$ whoami</text>
   <text x="120" y="56" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#FFFFFF">Muhanad Ghurab</text>
   <text x="20" y="82" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#22D3EE">$ role</text>
-  <text x="120" y="82" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">IT Specialist  Tekfen Construction</text>
+  <text x="120" y="82" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">IT Specialist - Tekfen Construction</text>
   <text x="20" y="108" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#22D3EE">$ focus</text>
-  <text x="120" y="108" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">Enterprise IT · Security Labs · Secure Platforms</text>
+  <text x="120" y="108" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">Enterprise IT ï¿½ Security Labs ï¿½ Secure Platforms</text>
   <text x="20" y="134" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#22D3EE">$ learning</text>
-  <text x="120" y="134" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">CompTIA Security+ · PMP  In Progress</text>
+  <text x="120" y="134" font-family="IBM Plex Mono, Consolas, monospace" font-size="13" fill="#CBD5E1">CompTIA Security+ ï¿½ PMP - In Progress</text>
 </svg>
