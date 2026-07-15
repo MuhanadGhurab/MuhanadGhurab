@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 140" role="img" aria-labelledby="title desc">
+  <title id="title">Project navigation rail</title>
+  <desc id="desc">Visual navigation reminder: Resume, Lab, SecureSkies, Crow Ecosystem, Tools, Contact.</desc>
+  <rect width="1100" height="140" rx="16" fill="#020617" stroke="#1E293B"/>
+  <text x="40" y="36" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#22D3EE">PROJECT NAVIGATION</text>
+  <g font-family="IBM Plex Mono,Consolas,monospace" font-size="13" fill="#FFFFFF">
+    <rect x="40" y="56" width="160" height="54" rx="10" fill="#0F172A" stroke="#2563EB"/><text x="120" y="88" text-anchor="middle">Resume</text>
+    <rect x="220" y="56" width="160" height="54" rx="10" fill="#0F172A" stroke="#2563EB"/><text x="300" y="88" text-anchor="middle">Security Lab</text>
+    <rect x="400" y="56" width="160" height="54" rx="10" fill="#0F172A" stroke="#2563EB"/><text x="480" y="88" text-anchor="middle">SecureSkies</text>
+    <rect x="580" y="56" width="160" height="54" rx="10" fill="#0F172A" stroke="#2563EB"/><text x="660" y="88" text-anchor="middle">Crow Ecosystem</text>
+    <rect x="760" y="56" width="160" height="54" rx="10" fill="#0F172A" stroke="#2563EB"/><text x="840" y="88" text-anchor="middle">Cyber Tools</text>
+    <rect x="940" y="56" width="120" height="54" rx="10" fill="#0F172A" stroke="#22D3EE"/><text x="1000" y="88" text-anchor="middle">Contact</text>
+  </g>
+</svg>

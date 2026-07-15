@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Conceptual portfolio architecture diagram</title>
+  <desc id="desc">Pseudo-3D isometric enterprise core with Identity, Infrastructure, Detection, Automation, Governance, and Projects nodes. Conceptual Portfolio Architecture only.</desc>
+  <defs>
+    <style><![CDATA[
+      .label { font-family: IBM Plex Mono, Consolas, monospace; font-size: 14px; fill: #CBD5E1; }
+      .title { font-family: IBM Plex Mono, Consolas, monospace; font-size: 20px; fill: #FFFFFF; font-weight: 700; }
+      .note { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #94A3B8; }
+      @media (prefers-reduced-motion: no-preference) {
+        .float { animation: float 7s ease-in-out infinite; }
+        .pulse { animation: pulse 3.2s ease-in-out infinite; }
+      }
+      @keyframes float { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-10px);} }
+      @keyframes pulse { 0%,100% { opacity: .5;} 50% { opacity: 1;} }
+    ]]></style>
+  </defs>
+  <rect width="1200" height="560" rx="18" fill="#020617" stroke="#1E293B"/>
+  <text class="title" x="40" y="48">Conceptual Portfolio Architecture</text>
+  <text class="note" x="40" y="74">Portfolio map — not an employer, Tekfen, or Saudi Aramco network diagram</text>
+  <g class="float" transform="translate(600,300)">
+    <!-- isometric cube -->
+    <polygon points="0,-90 110,-30 110,80 0,140 -110,80 -110,-30" fill="#0B1224" stroke="#22D3EE" stroke-width="3"/>
+    <polygon points="0,-90 110,-30 0,20 -110,-30" fill="#132033" stroke="#2563EB" stroke-width="2"/>
+    <polygon points="0,20 110,-30 110,80 0,140" fill="#0C1528" stroke="#2563EB" stroke-width="2"/>
+    <text x="0" y="20" text-anchor="middle" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#FFFFFF">SECURE</text>
+    <text x="0" y="42" text-anchor="middle" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#22D3EE">CORE</text>
+    <!-- nodes -->
+    <g stroke="#475569" stroke-width="1.5" fill="none">
+      <path d="M0,-90 L0,-170"/><path d="M110,-30 L190,-70"/><path d="M110,80 L190,130"/><path d="M0,140 L0,210"/><path d="M-110,80 L-190,130"/><path d="M-110,-30 L-190,-70"/>
+    </g>
+    <circle class="pulse" cx="0" cy="-180" r="8" fill="#22D3EE"/><text class="label" x="0" y="-198" text-anchor="middle">Identity</text>
+    <circle class="pulse" cx="200" cy="-78" r="8" fill="#22D3EE"/><text class="label" x="220" y="-74">Infrastructure</text>
+    <circle class="pulse" cx="200" cy="138" r="8" fill="#22D3EE"/><text class="label" x="220" y="142">Detection</text>
+    <circle class="pulse" cx="0" cy="220" r="8" fill="#22D3EE"/><text class="label" x="0" y="244" text-anchor="middle">Automation</text>
+    <circle class="pulse" cx="-200" cy="138" r="8" fill="#22D3EE"/><text class="label" x="-220" y="142" text-anchor="end">Governance</text>
+    <circle class="pulse" cx="-200" cy="-78" r="8" fill="#22D3EE"/><text class="label" x="-220" y="-74" text-anchor="end">Projects</text>
+  </g>
+</svg>

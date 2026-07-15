@@ -1,0 +1,18 @@
+{
+  "updated": "2026-07-15",
+  "disclaimer": "Progress values represent project or learning completion, not competency ratings.",
+  "tracks": [
+    {"id": "github-profile", "label": "GitHub Portfolio Foundation", "value": 75, "status": "Active Development"},
+    {"id": "enterprise-lab", "label": "Enterprise Cybersecurity Lab Docs", "value": 80, "status": "Active Documentation"},
+    {"id": "security-plus", "label": "CompTIA Security+ Learning Path", "value": 30, "status": "In Progress"},
+    {"id": "pmp", "label": "PMP Learning Path", "value": 20, "status": "In Progress"},
+    {"id": "crow-ecosystem", "label": "Crow Ecosystem Documentation", "value": 70, "status": "Active Development"},
+    {"id": "python-portfolio", "label": "Python Portfolio Program", "value": 55, "status": "Active Development"},
+    {"id": "java-portfolio", "label": "Java Portfolio Program", "value": 10, "status": "Scaffolded"},
+    {"id": "drone-security", "label": "Drone Security Documentation", "value": 75, "status": "Documentation Complete"},
+    {"id": "secure-skies-twin", "label": "SecureSkies Digital Twin", "value": 0, "status": "Planned"},
+    {"id": "robotics", "label": "Robotics Security Documentation", "value": 20, "status": "Planning"},
+    {"id": "games-dev", "label": "Game Development Portfolio", "value": 30, "status": "Planning"},
+    {"id": "security-toolset", "label": "Security Toolset Program", "value": 60, "status": "Active Development"}
+  ]
+}

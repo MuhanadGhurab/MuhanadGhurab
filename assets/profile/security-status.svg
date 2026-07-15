@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 160" role="img" aria-labelledby="title desc">
+  <title id="title">Security and operating status</title>
+  <desc id="desc">Compact operating status: documentation validated, twin planned, certifications in progress, privacy protected.</desc>
+  <rect width="1100" height="160" rx="16" fill="#020617" stroke="#1E293B"/>
+  <text x="40" y="40" font-family="IBM Plex Mono,Consolas,monospace" font-size="16" fill="#22D3EE">OPERATING STATUS</text>
+  <g font-family="IBM Plex Mono,Consolas,monospace" font-size="13" fill="#CBD5E1">
+    <rect x="40" y="60" width="240" height="70" rx="10" fill="#0F172A" stroke="#2563EB"/>
+    <text x="60" y="90" fill="#FFFFFF">Docs validated</text>
+    <text x="60" y="112" fill="#22D3EE">Profile CI green</text>
+    <rect x="300" y="60" width="240" height="70" rx="10" fill="#0F172A" stroke="#22D3EE"/>
+    <text x="320" y="90" fill="#FFFFFF">SecureSkies twin</text>
+    <text x="320" y="112" fill="#F59E0B">Planned</text>
+    <rect x="560" y="60" width="240" height="70" rx="10" fill="#0F172A" stroke="#F59E0B"/>
+    <text x="580" y="90" fill="#FFFFFF">Security+ / PMP</text>
+    <text x="580" y="112" fill="#F59E0B">In Progress</text>
+    <rect x="820" y="60" width="240" height="70" rx="10" fill="#0F172A" stroke="#475569"/>
+    <text x="840" y="90" fill="#FFFFFF">Privacy boundary</text>
+    <text x="840" y="112" fill="#22D3EE">Public-safe only</text>
+  </g>
+</svg>
