@@ -2,6 +2,20 @@
 
 All notable changes to the Muhanad Ghurab profile repository and portfolio program documentation.
 
+## [2026-07-15] — MGH.RESUME.1
+
+### Added
+
+- One-page ATS résumé PDF and DOCX from shared `resume-data.json`
+- Resume preview PNG and ATS-CHECK documentation
+- Resume builder script and automated ATS extraction tests
+- Active View/Download résumé actions on the profile README
+
+### Notes
+
+- CompTIA Security+ and PMP remain In Progress
+- Saudi Aramco wording remains environment association (not direct employment)
+
 ## [2026-07-15] — MGH.GITHUB.PROFILE.2
 
 ### Added

@@ -44,3 +44,5 @@ Partially integrated academic prototype; full autonomous deployment not complete
 GitHub: https://github.com/MuhanadGhurab
 LinkedIn: https://www.linkedin.com/in/muhanad-ghurab-141btb414
 Email: muhanadghurab@gmail.com
+Phone: +966 59 700 4895
+Location: Jeddah, Saudi Arabia
