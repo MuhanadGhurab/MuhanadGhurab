@@ -2,6 +2,29 @@
 
 All notable changes to the Muhanad Ghurab profile repository and portfolio program documentation.
 
+## [2026-07-15] — MGH.GITHUB.HOME.1
+
+### Added
+
+- Recruiter-facing homepage rebuild
+- `cyber-crow-home.svg` and static fallback
+- Professional snapshot, evidence strip, and recruiter path panels
+- Homepage audit, architecture, content, and maintenance docs
+
+### Updated
+
+- Featured order: lab → SecureSkies → mini-projects → Crow → Event Triage → interview/evidence
+- Portfolio foundation progress to 75%
+- Brand guide crow/homepage panel guidance
+- Portfolio roadmap for HOME.1 / HOME.2 / SecureSkies 4D
+
+## [2026-07-15] — MGH.GITHUB.ECOSYSTEM.4C (profile integration)
+
+### Updated
+
+- Featured SecureSkies historical portfolio link
+- Drone documentation progress to 75%; digital twin 0% Planned
+
 ## [2026-07-15] — MGH.GITHUB.ECOSYSTEM.3
 
 ### Updated
@@ -17,7 +40,6 @@ All notable changes to the Muhanad Ghurab profile repository and portfolio progr
 - Lab documentation progress to 70% after sanitized evidence pack
 - Python portfolio / security toolset progress after IOC + manifest tools
 - Featured portfolio links to evidence guide and new tool READMEs
-- Current focus wording toward lab evidence and defensive tooling
 
 ## [2026-07-15] — MGH.GITHUB.ECOSYSTEM.1
 
@@ -25,19 +47,12 @@ All notable changes to the Muhanad Ghurab profile repository and portfolio progr
 
 - Profile repository foundation (`MuhanadGhurab`)
 - Animated cyber crow header and static fallback
-- Supporting SVG panels (divider, terminal, learning, project status)
+- Supporting SVG panels
 - Social preview image
 - Profile README with locked professional brand
-- Docs: PROFILE-CONTENT, PORTFOLIO-ROADMAP, PROJECT-INVENTORY, BRAND-GUIDE, PRIVACY-BOUNDARIES
-- Profile validation GitHub Actions workflow
+- Docs and profile validation workflow
 - MIT license for original profile assets/docs
-
-### Fixed
-
-- SVG XML sanitization for Actions validation (`56bd6e4`)
 
 ### Notes
 
 - Progress dashboard values are provisional project/learning completion percentages only
-- SecSky, robotics, desktop app public documentation deferred pending ownership/evidence review
-- Companion public repos created: `enterprise-cybersecurity-lab`, `mini-it-cyber-projects`

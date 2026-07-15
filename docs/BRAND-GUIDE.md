@@ -28,10 +28,24 @@ Prefer (referenced by name only — do not redistribute font files):
 
 ## Crow mark
 
-- Original geometric cyber crow
+- Original geometric cyber crow for homepage: `assets/cyber-crow-home.svg`
+- Static fallback required: `assets/cyber-crow-home-static.svg`
+- Legacy assets `cyber-crow-header.svg` / `cyber-crow-static.svg` retained for reference
 - Binary accents and network nodes allowed
 - Animation: SVG/CSS only, controlled, reduced-motion friendly
 - Always ship a static fallback
+
+## Homepage panels
+
+Preferred recruiter panels:
+
+- `professional-snapshot.svg`
+- `evidence-strip.svg`
+- `recruiter-path.svg`
+- `learning-progress.svg`
+- `project-status.svg`
+
+Do not put long paragraphs inside SVG assets. Keep searchable narrative in Markdown.
 
 ## Domain banner accents
 

@@ -1,27 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-labelledby="t d">
-  <title id="t">Project program progress</title>
-  <desc id="d">Progress panel for Python, Java, drone, robotics, and game portfolio programs.</desc>
-  <style>
-    .label { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #CBD5E1; }
-    .pct { font-family: IBM Plex Mono, Consolas, monospace; font-size: 12px; fill: #22D3EE; }
-    .track { fill: #1E293B; }
-    .bar { fill: #2563EB; }
-  </style>
-  <rect width="720" height="220" rx="12" fill="#020617" stroke="#1E293B"/>
-  <text class="label" x="24" y="32">Program progress (project completion only)</text>
-
-  <text class="label" x="24" y="62">Python Portfolio Program</text><text class="pct" x="660" y="62">55%</text>
-  <rect class="track" x="24" y="70" width="672" height="8" rx="4"/><rect class="bar" x="24" y="70" width="370" height="8" rx="4"/>
-
-  <text class="label" x="24" y="98">Java Portfolio Program</text><text class="pct" x="660" y="98">10%</text>
-  <rect class="track" x="24" y="106" width="672" height="8" rx="4"/><rect class="bar" x="24" y="106" width="67" height="8" rx="4"/>
-
-  <text class="label" x="24" y="134">Drone Security Documentation</text><text class="pct" x="660" y="134">75%</text>
-  <rect class="track" x="24" y="142" width="672" height="8" rx="4"/><rect class="bar" x="24" y="142" width="504" height="8" rx="4"/>
-
-  <text class="label" x="24" y="170">Robotics Security Documentation</text><text class="pct" x="660" y="170">20%</text>
-  <rect class="track" x="24" y="178" width="672" height="8" rx="4"/><rect class="bar" x="24" y="178" width="134" height="8" rx="4"/>
-
-  <text class="label" x="24" y="206">Game Development Portfolio</text><text class="pct" x="660" y="206">30%</text>
-  <rect class="track" x="24" y="214" width="672" height="8" rx="4"/><rect class="bar" x="24" y="214" width="202" height="8" rx="4"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 240" role="img" aria-labelledby="title desc">
+  <title id="title">Project program progress</title>
+  <desc id="desc">Progress for drone docs, digital twin, Python, security tools, Crow docs.</desc>
+  <style>.l{font-family:IBM Plex Mono,Consolas,monospace;font-size:12px;fill:#CBD5E1}.p{fill:#22D3EE}.t{fill:#1E293B}.b{fill:#2563EB}</style>
+  <rect width="720" height="240" rx="12" fill="#020617" stroke="#1E293B"/>
+  <text class="l" x="24" y="28">Project completion (not skill ratings)</text>
+  <text class="l" x="24" y="58">Drone Security Documentation</text><text class="p" x="660" y="58">75%</text>
+  <rect class="t" x="24" y="66" width="672" height="8" rx="4"/><rect class="b" x="24" y="66" width="504" height="8" rx="4"/>
+  <text class="l" x="24" y="98">SecureSkies Digital Twin</text><text class="p" x="660" y="98">0%</text>
+  <rect class="t" x="24" y="106" width="672" height="8" rx="4"/>
+  <text class="l" x="24" y="138">Python Portfolio Program</text><text class="p" x="660" y="138">55%</text>
+  <rect class="t" x="24" y="146" width="672" height="8" rx="4"/><rect class="b" x="24" y="146" width="370" height="8" rx="4"/>
+  <text class="l" x="24" y="178">Security Toolset</text><text class="p" x="660" y="178">60%</text>
+  <rect class="t" x="24" y="186" width="672" height="8" rx="4"/><rect class="b" x="24" y="186" width="403" height="8" rx="4"/>
+  <text class="l" x="24" y="218">Crow Ecosystem Documentation</text><text class="p" x="660" y="218">70%</text>
+  <rect class="t" x="24" y="226" width="672" height="8" rx="4"/><rect class="b" x="24" y="226" width="470" height="8" rx="4"/>
 </svg>

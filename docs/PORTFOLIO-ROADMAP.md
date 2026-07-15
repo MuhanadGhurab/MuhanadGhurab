@@ -10,86 +10,37 @@ Incremental program for the Muhanad Ghurab GitHub ecosystem.
 4. Privacy boundaries before publication
 5. Do not start a later phase before current quality gates pass
 
-## Phase 0 — Audit and safety (this milestone start)
+## Phase 0 — Audit and safety
 
-- Inventory owned repositories
-- Classify portfolio fit and sensitivity
-- Document privacy boundaries
-- Confirm ownership and visibility before publishes
-
-**Status:** Complete for MGH.GITHUB.ECOSYSTEM.1 baseline
+**Status:** Complete
 
 ## Phase 1 — Profile foundation
 
-- Profile repository `MuhanadGhurab`
-- Animated + static cyber crow
-- Brand guide, inventory, roadmap, privacy docs
-- Validation workflow
-
-**Status:** Active in this milestone
+**Status:** Complete (ECOSYSTEM.1) · **Homepage rebuild:** MGH.GITHUB.HOME.1 (active)
 
 ## Phase 2 — Documentation foundation
 
 - `enterprise-cybersecurity-lab` sanitized evidence pack + screenshot framework
 - Interview walkthrough published
-- Crow architecture already public via `crow-ecosystem-platform`
-- SecSky / robotics documentation repositories deferred until evidence review
+- Crow architecture public via `crow-ecosystem-platform`
+- `secureskies-drone-security` public historical portfolio published (4C)
 
-**Status:** Evidence framework ready; real screenshots pending capture
+**Status:** Lab evidence framework ready; real screenshots pending capture
 
 ## Phase 3 — Small functional projects
 
-Completed set:
+Published tools include hash verifier, RBAC simulator, log summary, IOC extractor, evidence manifest builder, Windows Event Triage Helper.
 
-1. Python file hash verifier
-2. Java role-based access simulator
-3. Python log summary utility
-4. Python IOC text extractor
-5. Python evidence manifest builder
-6. Python Windows Event Triage Helper
+**Status:** Active · CI green for Java/Python suites
 
-Optional (deferred): binary-crow educational game
+## Phase 4 — SecureSkies digital twin
 
-**Status:** Six functional prototypes in `mini-it-cyber-projects`
+**Next:** MGH.GITHUB.ECOSYSTEM.4D — software-only twin (not started)
 
-## Phase 4 — Hybrid projects
+## Phase 5 — Homepage visual evidence and CV brand alignment
 
-- Security operations dashboard prototype
-- Asset risk register
-- Incident timeline viewer
-- Cyber lab evidence organizer
+**Next after HOME.1:** MGH.GITHUB.HOME.2 — social preview refinement and CV brand alignment
 
-**Status:** Deferred
+## Progress governance
 
-## Phase 5 — Portfolio hardening
-
-- CI expansion, linting, screenshots, threat models, releases, changelogs
-
-**Status:** Deferred
-
-## Phase 6 — Interview readiness
-
-For each featured repository:
-
-- One-minute explanation
-- Five-minute walkthrough
-- Architecture summary
-- Security decisions and tradeoffs
-- Limitations and next milestone
-
-**Status:** Deferred
-
-## Evidence requirements
-
-Every important claim requires at least one of:
-
-- Source code
-- Passing tests
-- Diagram
-- Configuration example
-- Sanitized screenshot
-- Documented design decision
-
-## Next milestone (recommended)
-
-**MGH.GITHUB.ECOSYSTEM.2 — ENTERPRISE LAB EVIDENCE AND FIRST FUNCTIONAL SECURITY TOOLSET**
+Homepage project/learning percentages live in the README configuration comment. Security+ and PMP percentages change only with owner-provided updates.
