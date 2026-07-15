@@ -10,8 +10,8 @@
   <rect width="720" height="220" rx="12" fill="#020617" stroke="#1E293B"/>
   <text class="label" x="24" y="32">Program progress (project completion only)</text>
 
-  <text class="label" x="24" y="62">Python Portfolio Program</text><text class="pct" x="660" y="62">40%</text>
-  <rect class="track" x="24" y="70" width="672" height="8" rx="4"/><rect class="bar" x="24" y="70" width="269" height="8" rx="4"/>
+  <text class="label" x="24" y="62">Python Portfolio Program</text><text class="pct" x="660" y="62">55%</text>
+  <rect class="track" x="24" y="70" width="672" height="8" rx="4"/><rect class="bar" x="24" y="70" width="370" height="8" rx="4"/>
 
   <text class="label" x="24" y="98">Java Portfolio Program</text><text class="pct" x="660" y="98">10%</text>
   <rect class="track" x="24" y="106" width="672" height="8" rx="4"/><rect class="bar" x="24" y="106" width="67" height="8" rx="4"/>

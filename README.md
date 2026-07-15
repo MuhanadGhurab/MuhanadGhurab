@@ -32,10 +32,10 @@ PMP Status:
 In Progress
 
 GitHub Portfolio Foundation:
-55%
+60%
 
 Enterprise Cybersecurity Lab Documentation:
-70%
+80%
 
 Security+ Learning Path:
 30%
@@ -47,13 +47,13 @@ Crow Ecosystem Documentation:
 70%
 
 Python Portfolio Program:
-40%
+55%
 
 Java Portfolio Program:
 10%
 
 Security Toolset Program:
-45%
+60%
 
 Drone Security Documentation:
 25%
@@ -108,7 +108,7 @@ $ domain
 Cybersecurity | Infrastructure | Enterprise Technology
 
 $ current_focus
-Enterprise Lab Evidence | Defensive Tooling | Secure Platform Engineering
+Lab Evidence Framework | Event Triage Tooling | Interview Walkthroughs
 
 $ learning
 CompTIA Security+ | PMP
@@ -134,8 +134,8 @@ Outside production work, he develops home-lab security environments, builds defe
 - Saudi Aramco project-environment exposure (environment association — not direct Aramco employment)
 - Bachelor’s specialization in Cybersecurity
 - **Second Place — University Graduation Project** (SecSky drone security)
-- Enterprise Cybersecurity Lab (sanitized evidence pack published; screenshots still pending)
-- Defensive security toolset (IOC extractor + evidence manifest builder)
+- Enterprise Cybersecurity Lab (evidence framework + interview walkthrough; screenshots pending capture)
+- Defensive security toolset (IOC extractor, evidence manifest builder, Windows event triage helper)
 - Crow Ecosystem Platform (public product/engineering portfolio)
 - CompTIA Security+ — In Progress
 - PMP — In Progress
@@ -158,13 +158,13 @@ Update manually after completing verified milestones.
 
 | Program | Progress |
 |---------|----------|
-| GitHub Portfolio Foundation | 55% |
-| Enterprise Cybersecurity Lab Documentation | 70% |
+| GitHub Portfolio Foundation | 60% |
+| Enterprise Cybersecurity Lab Documentation | 80% |
 | CompTIA Security+ Learning Path | 30% |
 | PMP Learning Path | 20% |
 | Crow Ecosystem Documentation | 70% |
-| Python Portfolio Program | 40% |
-| Security Toolset Program | 45% |
+| Python Portfolio Program | 55% |
+| Security Toolset Program | 60% |
 | Java Portfolio Program | 10% |
 | Drone Security Documentation | 25% |
 | Robotics Security Documentation | 20% |
@@ -175,8 +175,8 @@ Update manually after completing verified milestones.
 | # | Area | Repository | Status |
 |---|------|------------|--------|
 | 1 | Crow Ecosystem Platform | [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform) | Active Development — public platform codebase |
-| 2 | Enterprise Cybersecurity Lab | [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab) | Active Documentation — [evidence pack](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/blob/main/docs/EVIDENCE-GUIDE.md) |
-| 3 | Small IT & Cyber Projects | [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) | Active Development — [IOC extractor](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/ioc_text_extractor) · [evidence manifest](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/evidence_manifest_builder) |
+| 2 | Enterprise Cybersecurity Lab | [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab) | Active Documentation — [evidence framework](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/evidence) · [interview walkthrough](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/blob/main/docs/INTERVIEW-WALKTHROUGH.md) |
+| 3 | Small IT & Cyber Projects | [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) | Active Development — [event triage](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/windows_event_triage_helper) · [IOC extractor](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/ioc_text_extractor) · [evidence manifest](https://github.com/MuhanadGhurab/mini-it-cyber-projects/tree/main/python/evidence_manifest_builder) |
 | 4 | SecSky Drone Security | Planned public documentation | Planning |
 | 5 | Smart Methods Robotics Notes | Planned documentation | Planning |
 | 6 | Security Automation Toolkit | Planned | Planning |
@@ -230,8 +230,8 @@ Public activity reflects real commits and real repositories only. No fabricated 
 
 - Profile: [github.com/MuhanadGhurab](https://github.com/MuhanadGhurab)
 - Primary public platform repository: [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform)
-- Lab evidence: [enterprise-cybersecurity-lab docs](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/docs)
-- Defensive tools: [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects)
+- Lab evidence: [enterprise-cybersecurity-lab docs](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/docs) · [evidence/](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab/tree/main/evidence)
+- Defensive tools: [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) · [tool interview notes](https://github.com/MuhanadGhurab/mini-it-cyber-projects/blob/main/docs/INTERVIEW-WALKTHROUGH.md)
 
 ## Contact
 

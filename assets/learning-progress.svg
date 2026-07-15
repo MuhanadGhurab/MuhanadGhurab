@@ -12,14 +12,14 @@
   <text class="label" x="24" y="36">Portfolio &amp; learning progress (not skill ratings)</text>
 
   <text class="label" x="24" y="70">GitHub Portfolio Foundation</text>
-  <text class="pct" x="660" y="70">55%</text>
+  <text class="pct" x="660" y="70">60%</text>
   <rect class="track" x="24" y="78" width="672" height="8" rx="4"/>
-  <rect class="bar" x="24" y="78" width="370" height="8" rx="4"/>
+  <rect class="bar" x="24" y="78" width="403" height="8" rx="4"/>
 
   <text class="label" x="24" y="110">Enterprise Cybersecurity Lab Docs</text>
-  <text class="pct" x="660" y="110">70%</text>
+  <text class="pct" x="660" y="110">80%</text>
   <rect class="track" x="24" y="118" width="672" height="8" rx="4"/>
-  <rect class="bar2" x="24" y="118" width="470" height="8" rx="4"/>
+  <rect class="bar2" x="24" y="118" width="538" height="8" rx="4"/>
 
   <text class="label" x="24" y="150">CompTIA Security+ Learning Path</text>
   <text class="pct" x="660" y="150">30%</text>
