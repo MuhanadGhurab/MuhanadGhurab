@@ -182,6 +182,23 @@ Conceptual map of **public portfolio domains** only. Not an employer network, Te
 
 ---
 
+## Enterprise Portfolio Programs
+
+Governed six-program cyber-resilience portfolio (synthetic Northstar Industrial Services case material where noted). Operating system and first foundation packs:
+
+| Program | Focus | Evidence home |
+|---------|-------|---------------|
+| Portfolio OS | Registries, evidence ledger, career gate | [enterprise-cyber-resilience-portfolio](https://github.com/MuhanadGhurab/enterprise-cyber-resilience-portfolio) |
+| P3 Risk & GRC | Synthetic risk strategy and register | [enterprise-cyber-risk-governance](https://github.com/MuhanadGhurab/enterprise-cyber-risk-governance) |
+| P5 Delivery | Synthetic security modernization program | [secure-project-delivery-office](https://github.com/MuhanadGhurab/secure-project-delivery-office) |
+| P4 Engineering | Secure platform flagship | [crow-ecosystem-platform](https://github.com/MuhanadGhurab/crow-ecosystem-platform) |
+| P1 / P2 Operations & Defense | Lab + defensive utilities | [enterprise-cybersecurity-lab](https://github.com/MuhanadGhurab/enterprise-cybersecurity-lab) · [mini-it-cyber-projects](https://github.com/MuhanadGhurab/mini-it-cyber-projects) |
+| P6 Emerging systems | Academic drone-security case study | [secureskies-drone-security](https://github.com/MuhanadGhurab/secureskies-drone-security) |
+
+Alignment case studies only — not certification or compliance claims. CompTIA Security+ and PMP remain **In Progress**.
+
+---
+
 ## ⚙️ Technical Capabilities
 
 Grouped skills in use — no competency percentages.
