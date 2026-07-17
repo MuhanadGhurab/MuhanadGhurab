@@ -127,6 +127,12 @@ def test_required_readme_strings() -> None:
     assert "TODO" not in readme
     assert "TBD" not in readme
     assert "FIXME" not in readme
+    assert "## Enterprise Portfolio Programs" in readme
+    assert "enterprise-cyber-resilience-portfolio" in readme
+    assert "enterprise-cyber-risk-governance" in readme
+    assert "secure-project-delivery-office" in readme
+    assert "Alignment case studies only" in readme
+    assert "cyber-crow-hero-v2.svg" in readme
 
 
 def test_readme_asset_refs_exist() -> None:
